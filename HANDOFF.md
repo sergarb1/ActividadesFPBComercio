@@ -45,6 +45,8 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 
 ## ✅ Añadido en este turno
 
+- **Skills instaladas en `.agents/skills/`**: las 7 de `nextlevelbuilder/ui-ux-pro-max-skill` (`ui-ux-pro-max`, `ui-styling`, `design-system`, `design`, `brand`, `slides`, `banner-design`) y `excalidraw-skill` (el skill del CLI npx que usamos para las imágenes). Documentadas en `AGENTS.md` → Notas para el agente, así se usan para revisar interfaces y diagramas sin tener que buscarlas.
+
 - **Unidad 5 · 🪟 El escaparate** (`05-el-escaparate`): idea en una frase y 3 niveles · vestir con tarjeta y carta y ciclo de renovación · juegos (escaparate exprés, ¿se renueva?, el precio escondido).
 - **Unidad 6 · 🔄 Devoluciones y reclamaciones** (`06-devoluciones-y-reclamaciones`): las 3 condiciones (ticket · plazo · estado) y garantía legal de 2 años · la hoja de reclamaciones entera (se da, se rellena, se sella y se envía) · juegos (¿procede?, hoja en 4 minutos, DANI responde).
 - **4 imágenes Excalidraw** con `scripts/gen-tienda-3.py` y `render` offline; dimensiones reales del viewBox puestas en el `ficha-img`.

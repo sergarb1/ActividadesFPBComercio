@@ -355,3 +355,6 @@ npx -y mcp-excalidraw-server clear --yes
 4. **Al añadir un bloque nuevo** de la Sección 2: crear carpeta, índice, puntos, añadir al sidebar y actualizar el temario de este AGENTS.md.
 5. **Checkpoint de tono:** el usuario revisa las primeras unidades antes de masificar el resto; si pide cambios de tono o nombres, aplicarlos primero aquí.
 6. **P4QU3T3 (de ApuntesRedes) no aplica aquí:** los personajes de este proyecto son ROSA y DANI.
+7. **Skills instaladas en `.agents/skills/`** (usarlas cuando toque interfaces o diagramas):
+   - `ui-ux-pro-max` · `ui-styling` · `design-system` · `design` · `brand` · `slides` · `banner-design` — de `nextlevelbuilder/ui-ux-pro-max-skill`. Útil para revisar/mejorar el CSS de las fichas, la landing y la accesibilidad.
+   - `excalidraw-skill` — el skill del CLI que ya usamos para las imágenes de las fichas (`npx -y mcp-excalidraw-server …`). Es la referencia canónica de su flujo (canvas, render offline, snapshot…).
