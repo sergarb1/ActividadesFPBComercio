@@ -126,6 +126,24 @@ Cada unidad trae **una actividad para hacer en el aula**: un caso, una plantilla
   <a href="/ActividadesFPBComercio/10-textos-en-papel" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">11 · Memorizar</span>
+  </div>
+  <a href="/ActividadesFPBComercio/11-memorizar-de-verdad" class="title-link">🧠 Memorizar de verdad</a>
+  <p class="desc">Leer, copiar, tapar y decir en voz alta. Con el plan de repaso 1-3-7 que aguanta hasta el examen.</p>
+  <a href="/ActividadesFPBComercio/11-memorizar-de-verdad" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">12 · Examen</span>
+  </div>
+  <a href="/ActividadesFPBComercio/12-examen-en-blanco" class="title-link">✅ Examen en blanco</a>
+  <p class="desc">Hazte el examen antes de que te lo hagan: 6 preguntas, reloj y corrección en otro color.</p>
+  <a href="/ActividadesFPBComercio/12-examen-en-blanco" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
 </div>
 
 ## 🧑‍🤝‍🧑 Los protagonistas

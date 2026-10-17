@@ -41,7 +41,14 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 
 ## ⏳ Pendiente / siguiente
 
-- **Siguiente lote:** 11 · 🧠 Memorizar de verdad y 12 · ✅ Examen en blanco (bloque estudiar).
+- **Siguiente lote:** 13 · 🤖 IA: copiloto de estudio (cierra el bloque estudiar) + arrancar el bloque creativo (14 · Monta tu presentación).
+
+## ✅ Añadido después (mismo día)
+
+- **Unidad 11 · 🧠 Memorizar de verdad** (`11-memorizar-de-verdad`): ciclo leer→copiar→tapar→decir · semáforo del conocimiento y repaso 1-3-7 · juegos (cadena de memoria, el vendedor que sabe, duelo 1-3-7).
+- **Unidad 12 · ✅ Examen en blanco** (`12-examen-en-blanco`): tus 6 preguntas y corrección en otro color · el día del examen real (45 min en 4 bloques) · juegos (examen exprés, reparto perfecto, la frase que salva).
+- **4 imágenes Excalidraw** con `scripts/gen-tienda-4.py` y dims reales en los `ficha-img`.
+- Sidebar y landing con 1-12; el bloque 📚 Estudiar queda con 6 de sus 7 unidades (solo falta la 13 de IA).
 
 ## ✅ Añadido en este turno
 
@@ -60,6 +67,7 @@ npm run dev / build / preview / docx
 python scripts/gen-tienda-images.py   # escenas 1-2
 python scripts/gen-tienda-2.py        # escenas 3-4
 python scripts/gen-tienda-3.py        # escenas 5-6
+python scripts/gen-tienda-4.py        # escenas 11-12
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format svg --out x.svg
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format png --out x.png
 ```

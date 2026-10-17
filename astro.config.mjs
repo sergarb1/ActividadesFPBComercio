@@ -71,6 +71,26 @@ const contenidosItems = [
     ],
   },
   {
+    label: '11 · 🧠 Memorizar de verdad',
+    collapsed: true,
+    items: [
+      { slug: '11-memorizar-de-verdad', label: 'Índice' },
+      { slug: '11-memorizar-de-verdad/01-copiar-tapar-y-decir', label: '1 · Copiar, tapar y decir' },
+      { slug: '11-memorizar-de-verdad/02-el-repaso-1-3-7', label: '2 · El repaso 1-3-7' },
+      { slug: '11-memorizar-de-verdad/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
+    label: '12 · ✅ Examen en blanco',
+    collapsed: true,
+    items: [
+      { slug: '12-examen-en-blanco', label: 'Índice' },
+      { slug: '12-examen-en-blanco/01-tu-examen-en-blanco', label: '1 · Tu examen en blanco' },
+      { slug: '12-examen-en-blanco/02-el-dia-del-examen-real', label: '2 · El día del examen real' },
+      { slug: '12-examen-en-blanco/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
     label: '07 · 📖 Leer y entender',
     collapsed: true,
     items: [
