@@ -51,6 +51,26 @@ const contenidosItems = [
     ],
   },
   {
+    label: '05 · 🪟 El escaparate',
+    collapsed: true,
+    items: [
+      { slug: '05-el-escaparate', label: 'Índice' },
+      { slug: '05-el-escaparate/01-la-idea-y-los-3-niveles', label: '1 · La idea y los 3 niveles' },
+      { slug: '05-el-escaparate/02-vestir-y-renovar', label: '2 · Vestir y renovar' },
+      { slug: '05-el-escaparate/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
+    label: '06 · 🔄 Devoluciones y reclamaciones',
+    collapsed: true,
+    items: [
+      { slug: '06-devoluciones-y-reclamaciones', label: 'Índice' },
+      { slug: '06-devoluciones-y-reclamaciones/01-la-devolucion-correcta', label: '1 · La devolución correcta' },
+      { slug: '06-devoluciones-y-reclamaciones/02-la-hoja-de-reclamaciones', label: '2 · La hoja de reclamaciones' },
+      { slug: '06-devoluciones-y-reclamaciones/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
     label: '07 · 📖 Leer y entender',
     collapsed: true,
     items: [

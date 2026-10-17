@@ -64,9 +64,27 @@ Cada unidad trae **una actividad para hacer en el aula**: un caso, una plantilla
   <a href="/ActividadesFPBComercio/04-inventario-y-stock" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">5 · Escaparate</span>
+  </div>
+  <a href="/ActividadesFPBComercio/05-el-escaparate" class="title-link">🪟 El escaparate</a>
+  <p class="desc">Una idea, 3 niveles de altura y sin saturar. Se monta de verdad y se defiende en 1 minuto.</p>
+  <a href="/ActividadesFPBComercio/05-el-escaparate" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
-> **En camino:** 🪟 El escaparate · 🔄 Devoluciones y reclamaciones · 🚚 Proveedores y pedidos.
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">6 · Devoluciones</span>
+  </div>
+  <a href="/ActividadesFPBComercio/06-devoluciones-y-reclamaciones" class="title-link">🔄 Devoluciones y reclamaciones</a>
+  <p class="desc">Ticket, plazo y estado del producto. La hoja de reclamación sin miedo y con las cosas claras.</p>
+  <a href="/ActividadesFPBComercio/06-devoluciones-y-reclamaciones" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+</div>
+
+> **En camino:** 🚚 Proveedores y pedidos y más puntos del taller. El plan completo está en [AGENTS.md](https://github.com/sergarb1/ActividadesFPBComercio/blob/main/AGENTS.md) (29 unidades).
 
 ## 📚 Estudiar sin sufrir
 

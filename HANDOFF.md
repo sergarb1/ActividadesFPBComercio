@@ -4,7 +4,7 @@
 > Se **sobrescribe** en cada sesión; el histórico queda en los commits (git log HANDOFF.md).
 > La guía permanente del proyecto es [AGENTS.md](AGENTS.md): este fichero solo añade el estado puntual.
 
-**Fecha del traspaso:** 17 de octubre de 2026 (numeración corrida + estilo ficha)
+**Fecha del traspaso:** 17 de octubre de 2026 (taller de tienda completo: unidades 1-6)
 **Proyecto:** Actividades FPB Comercio — `https://github.com/sergarb1/ActividadesFPBComercio`
 
 ---
@@ -41,9 +41,14 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 
 ## ⏳ Pendiente / siguiente
 
-- **Siguiente lote:** 5 · 🪟 El escaparate y 6 · 🔄 Devoluciones y reclamaciones.
-- Revisión visual del usuario: si la hoja de ficha necesita ajustes (ancho, tipografía, espaciado), se toca solo `src/styles/custom.css`.
-- Las fichas 7-10 (estudiar) son las más "teóricas": si se quiere, se reescriben con más actividad y menos explicación.
+- **Siguiente lote:** 11 · 🧠 Memorizar de verdad y 12 · ✅ Examen en blanco (bloque estudiar).
+
+## ✅ Añadido en este turno
+
+- **Unidad 5 · 🪟 El escaparate** (`05-el-escaparate`): idea en una frase y 3 niveles · vestir con tarjeta y carta y ciclo de renovación · juegos (escaparate exprés, ¿se renueva?, el precio escondido).
+- **Unidad 6 · 🔄 Devoluciones y reclamaciones** (`06-devoluciones-y-reclamaciones`): las 3 condiciones (ticket · plazo · estado) y garantía legal de 2 años · la hoja de reclamaciones entera (se da, se rellena, se sella y se envía) · juegos (¿procede?, hoja en 4 minutos, DANI responde).
+- **4 imágenes Excalidraw** con `scripts/gen-tienda-3.py` y `render` offline; dimensiones reales del viewBox puestas en el `ficha-img`.
+- **Taller de tienda completo en la web**: sidebar y landing con 1-6 y estado actualizado en `AGENTS.md`.
 
 ## 🧰 Comandos
 
@@ -52,6 +57,7 @@ npm run dev / build / preview / docx
 
 python scripts/gen-tienda-images.py   # escenas 1-2
 python scripts/gen-tienda-2.py        # escenas 3-4
+python scripts/gen-tienda-3.py        # escenas 5-6
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format svg --out x.svg
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format png --out x.png
 ```

@@ -65,17 +65,17 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ## 📍 Estado actual (actualizar al publicar unidades)
 
-- **Publicadas:** **1 · El mostrador** · **2 · La caja y el cobro** · **3 · Reposición y almacén** · **4 · Inventario y stock** · **7 · Leer y entender** · **8 · Subrayado** · **9 · Esquemas y resúmenes** · **10 · Textos en papel**.
+- **Publicadas:** **1-6** (taller de tienda completa) · **7 · Leer y entender** · **8 · Subrayado** · **9 · Esquemas y resúmenes** · **10 · Textos en papel**.
 - **Retirado:** todo el bloque de tutoría anterior (recuperable en el historial de git).
-- **Siguiente lote:** 5 · El escaparate y 6 · Devoluciones y reclamaciones (taller de tienda).
-- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 8 unidades publicadas.
+- **Siguiente lote:** 11 · Memorizar de verdad y 12 · Examen en blanco (bloque estudiar).
+- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 10 unidades publicadas.
 - **Traspaso de sesión:** [HANDOFF.md](HANDOFF.md) — se sobrescribe en cada sesión; el histórico queda en git.
 
 ---
 
 ## 📚 Temario (29 unidades pequeñas, en construcción)
 
-Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: **1-4** (taller de tienda) y **7-10** (estudiar). Todo lo que se escriba sigue el formato ficha y termina en algo que el alumnado hace en clase.
+Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: **1-6** (taller de tienda completa) y **7-10** (estudiar). Todo lo que se escriba sigue el formato ficha y termina en algo que el alumnado hace en clase.
 
 > 🔢 **Numeración corrida desde 1** (17/10/2026): antes había huecos porque se retiraron las unidades de tutoría. Las 1-6 son el taller de tienda, las 7-13 estudiar, 14-18 creatividad, 19-24 comunicación, 25-28 IPE II y 29 el proyecto OAA.
 >
@@ -89,8 +89,8 @@ Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en
 | 2 | 💶 La caja y el cobro | `02-caja-y-cobro` | ✅ Cobro (efectivo/tarjeta/móvil), cambio hacia arriba, arqueo y descuadres |
 | 3 | 🗃️ Reposición y almacén | `03-reposicion-y-almacen` | ✅ Albarán, familias, FIFO, facing y huecos |
 | 4 | 🧮 Inventario y stock | `04-inventario-y-stock` | ✅ Recuento, mermas, stock mínimo y punto de pedido |
-| 5 | 🪟 El escaparate | `05-el-escaparate` | Montar un escaparate con material real y cartelería |
-| 6 | 🔄 Devoluciones y reclamaciones | `06-devoluciones-y-reclamaciones` | Hojas de reclamación, plazos, garantía y trato al cliente |
+| 5 | 🪟 El escaparate | `05-el-escaparate` | ✅ Idea en una frase, 3 niveles, tarjeta de precio y ciclo de renovación |
+| 6 | 🔄 Devoluciones y reclamaciones | `06-devoluciones-y-reclamaciones` | ✅ Las 3 condiciones, garantía legal (2 años), hoja de reclamaciones y desistimiento |
 
 #### 🧠 Estudiar sin sufrir
 
