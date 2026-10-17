@@ -159,7 +159,7 @@ def guion_5_pasos():
             TEAL,
         )
     )
-    scene("16-el-mostrador-ficha1.excalidraw", els)
+    scene("01-el-mostrador-ficha1.excalidraw", els)
 
 
 def clientes_dificiles():
@@ -188,7 +188,7 @@ def clientes_dificiles():
             TEAL,
         )
     )
-    scene("16-el-mostrador-ficha2.excalidraw", els)
+    scene("01-el-mostrador-ficha2.excalidraw", els)
 
 
 def cobro_pasos():
@@ -213,7 +213,7 @@ def cobro_pasos():
     els.append(
         text(78, 275, "Cuenta hacia arriba: 12,40 → 12,50 → 13 → 20. Así no te pierdes.", 14)
     )
-    scene("17-caja-y-cobro-ficha1.excalidraw", els)
+    scene("02-caja-y-cobro-ficha1.excalidraw", els)
 
 
 def arqueo():
@@ -243,12 +243,4 @@ def arqueo():
             TEAL,
         )
     )
-    scene("17-caja-y-cobro-ficha2.excalidraw", els)
-
-
-if __name__ == "__main__":
-    random.seed(7)
-    guion_5_pasos()
-    clientes_dificiles()
-    cobro_pasos()
-    arqueo()
+    scene("02-caja-y-cobro-ficha2.excalidraw", els)

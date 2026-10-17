@@ -380,65 +380,173 @@
   background: rgba(255,255,255,0.1);
 }
 
-/* === FICHAS DE AULA === */
+/* === FICHAS DE AULA (hoja de trabajo) === */
+/* La página entera se presenta como una ficha imprimible: hoja blanca,
+   etiqueta "FICHA DE AULA", ejercicios recuadrados y líneas para escribir. */
+.sl-markdown-content {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 1rem;
+  padding: 1.9rem 1.9rem 2.1rem;
+  margin-top: 1.9rem;
+  box-shadow: 0 24px 60px -42px rgba(15, 23, 42, 0.5);
+}
+.sl-markdown-content::before {
+  content: 'FICHA DE AULA';
+  position: absolute;
+  top: -0.8rem;
+  left: 1.6rem;
+  background: var(--sl-color-accent);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  padding: 0.28rem 0.75rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 4px 14px -4px rgba(37, 99, 235, 0.6);
+}
+/* La portada no es una ficha: sin hoja ni etiqueta */
+main:has(.ficha-hero) .sl-markdown-content,
+.content-panel:has(.ficha-hero) .sl-markdown-content {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+  box-shadow: none;
+}
+main:has(.ficha-hero) .sl-markdown-content::before,
+.content-panel:has(.ficha-hero) .sl-markdown-content::before {
+  display: none;
+}
+@media (max-width: 640px) {
+  .sl-markdown-content {
+    padding: 1.4rem 1rem 1.6rem;
+    border-radius: 0.75rem;
+  }
+}
+
 /* Cabecera de ficha: Nombre / Fecha / Grupo */
 .ficha-cabecera {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem 1.5rem;
-  align-items: center;
-  border: 2px dashed rgba(37, 99, 235, 0.35);
-  border-radius: 0.85rem;
-  background: rgba(37, 99, 235, 0.04);
-  padding: 0.75rem 1.25rem;
-  margin: 1rem 0 1.5rem;
+  gap: 1rem 1.75rem;
+  align-items: flex-end;
+  border: 2px solid rgba(37, 99, 235, 0.3);
+  border-radius: 0.6rem;
+  background: rgba(37, 99, 235, 0.035);
+  padding: 0.9rem 1.25rem 0.75rem;
+  margin: 1.25rem 0 1.75rem;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+.ficha-cabecera::before {
+  content: 'DATOS DE LA FICHA';
+  flex-basis: 100%;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--sl-color-accent);
+  margin-bottom: -0.35rem;
 }
 .ficha-cabecera .campo {
   flex: 1 1 180px;
-  min-width: 160px;
-  border-bottom: 2px dotted var(--sl-color-accent);
-  padding-bottom: 1.1rem;
+  min-width: 150px;
+  border-bottom: 1.5px solid rgba(30, 41, 59, 0.45);
+  padding-bottom: 0.35rem;
   color: var(--sl-color-gray-2);
   font-weight: 500;
+  white-space: nowrap;
 }
-/* Marco para imágenes Excalidraw */
+/* Imágenes Excalidraw de la ficha (Markdown ![alt](url)) */
+.sl-markdown-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 0.7rem;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  box-shadow: 0 10px 30px -18px rgba(37, 99, 235, 0.5);
+  background: #fff;
+}
+/* Marco opcional por si se usa <figure class="ficha-img"> */
 .ficha-img {
   margin: 1.5rem auto;
   text-align: center;
 }
 .ficha-img img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.85rem;
-  border: 1px solid rgba(37, 99, 235, 0.15);
-  box-shadow: 0 8px 30px -10px rgba(37, 99, 235, 0.2);
-  background: #fff;
+  margin: 0 auto;
 }
 .ficha-img figcaption {
   font-size: 0.8rem;
   color: var(--sl-color-gray-3);
   margin-top: 0.5rem;
 }
-/* Líneas para escribir en los ejercicios */
+/* Líneas para escribir a mano en los ejercicios */
 .linea-respuesta {
   display: block;
-  border-bottom: 1.5px dotted var(--sl-color-accent);
-  min-height: 1.4rem;
-  margin: 0.4rem 0 0.9rem;
+  border-bottom: 1.5px solid rgba(30, 41, 59, 0.4);
+  min-height: 1.75rem;
+  margin: 0.5rem 0 1.1rem;
 }
-/* Bloque de ejercicio numerado con icono */
+/* Bloque de ejercicio: recuadro numerado tipo hoja de trabajo */
 .ejercicio {
-  border-left: 4px solid var(--sl-color-accent);
-  background: rgba(37, 99, 235, 0.04);
-  border-radius: 0 0.6rem 0.6rem 0;
-  padding: 0.6rem 1rem;
-  margin: 0.9rem 0;
+  position: relative;
+  border: 1.5px solid rgba(37, 99, 235, 0.22);
+  border-left: 5px solid var(--sl-color-accent);
+  background: rgba(37, 99, 235, 0.035);
+  border-radius: 0.5rem;
+  padding: 1rem 1.1rem 0.85rem;
+  margin: 1.35rem 0;
+  box-shadow: 0 3px 0 rgba(37, 99, 235, 0.06);
+}
+.ejercicio::after {
+  content: 'EJERCICIO';
+  position: absolute;
+  top: -0.6rem;
+  right: 0.9rem;
+  background: #fff;
+  color: var(--sl-color-accent);
+  font-size: 0.56rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  padding: 0 0.4rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+}
+.ejercicio > p:last-child,
+.ejercicio > ul:last-child,
+.ejercicio > ol:last-child {
+  margin-bottom: 0;
+}
+
+/* Tablas tipo plantilla para rellenar */
+.sl-markdown-content table {
+  font-size: 0.9rem;
+}
+.sl-markdown-content th {
+  background: rgba(37, 99, 235, 0.09);
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+.sl-markdown-content th,
+.sl-markdown-content td {
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  padding: 0.45rem 0.6rem;
+}
+.sl-markdown-content h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgba(37, 99, 235, 0.14);
 }
 
 /* === IMPRESIÓN === */
 @media print {
+  @page {
+    margin: 14mm 13mm;
+  }
   .sidebar, .top-bar, .right-sidebar-panel, .hero, .page-nav, footer, .ficha-hero, .hero-btns {
     display: none !important;
   }
@@ -449,6 +557,16 @@
   .sl-markdown-content {
     text-align: left;
     font-size: 11pt;
+    background: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .sl-markdown-content::before {
+    position: static;
+    display: inline-block;
+    margin-bottom: 0.6rem;
   }
   a {
     color: #000 !important;
@@ -457,13 +575,43 @@
   .ficha-cabecera {
     border-color: #444;
     background: none;
+    break-inside: avoid;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-  .ficha-img img {
+  .ficha-cabecera .campo {
+    border-color: #555;
+  }
+  .ejercicio {
+    break-inside: avoid;
+    background: none;
+    border-color: #555;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .ejercicio::after {
+    background: #fff;
+    color: #000;
+    border-color: #999;
+  }
+  .linea-respuesta {
+    border-color: #777;
+    min-height: 1.9rem;
+  }
+  .sl-markdown-content img {
     box-shadow: none;
     border: 1px solid #bbb;
-    max-height: 12cm;
+    max-height: 11cm;
+    break-inside: avoid;
+  }
+  h2, h3 {
+    break-after: avoid;
+  }
+  table {
+    break-inside: auto;
+  }
+  tr {
+    break-inside: avoid;
   }
   details {
     display: block;
@@ -547,4 +695,29 @@
 :root[data-theme="dark"] .mision-card {
   background: linear-gradient(135deg, rgba(78, 205, 196, 0.05), rgba(37, 99, 235, 0.04));
   border-color: rgba(78, 205, 196, 0.2);
+}
+:root[data-theme="dark"] .sl-markdown-content {
+  background: #0d1620;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+:root[data-theme="dark"] .ejercicio {
+  background: rgba(37, 99, 235, 0.08);
+  border-color: rgba(107, 181, 224, 0.25);
+}
+:root[data-theme="dark"] .ejercicio::after {
+  background: #0d1620;
+  border-color: rgba(107, 181, 224, 0.3);
+}
+:root[data-theme="dark"] .linea-respuesta {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+:root[data-theme="dark"] .ficha-cabecera {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(107, 181, 224, 0.28);
+}
+:root[data-theme="dark"] .ficha-cabecera .campo {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+:root[data-theme="dark"] .sl-markdown-content th {
+  background: rgba(255, 255, 255, 0.06);
 }
