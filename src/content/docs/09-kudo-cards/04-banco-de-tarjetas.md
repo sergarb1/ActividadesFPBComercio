@@ -1,17 +1,17 @@
 ---
-title: 2 — Tarjetas listas
+title: 4 — Banco de tarjetas
 description: +50 kudos escritos en 8 categorías, para imprimir 🖨️
 ---
 
 <p><small>+50 kudos escritos en 8 categorías, para imprimir 🖨️</small></p>
 
-> 🗺️ **Estás en:** 🤝 **Banco de Kudo Cards** → 2 · Tarjetas listas
+> 🗺️ **Estás en:** 🤝 **Kudo Cards** → 4 · Banco de tarjetas
 
 ---
 
 ## 📬 En corto
 
-> **Más de 50 kudos ya escritos.** Elige, completa lo que va entre corchetes con el hecho real, y a la caja o al mural. Ctrl+P para imprimir la página entera y recortar.
+> **Más de 50 kudos ya escritos.** Elige, completa lo que va entre corchetes con el hecho real, y a la caja o al mural. Ctrl+P para imprimir la página entera y recortar. Ninguna tarjeta habla de notas ni de apariencias: todas tratan **comportamientos que mejoran el clima**. Ese es el acuerdo.
 
 <div style="text-align:center; margin: 1rem 0;">
   <button onclick="window.print()" style="padding:0.5rem 1.5rem;border:none;border-radius:2rem;background:linear-gradient(135deg,#2563eb,#4ecdc4);color:#fff;font-weight:700;cursor:pointer;">🖨️ Imprimir todas las tarjetas</button>
@@ -113,4 +113,4 @@ description: +50 kudos escritos en 8 categorías, para imprimir 🖨️
 
 ---
 
-📚 [Volver al índice del Banco de Kudo Cards](/ActividadesFPBComercio/10-banco-de-kudo-cards) · **Anterior:** [Cómo usar el banco](/ActividadesFPBComercio/10-banco-de-kudo-cards/01-como-usar-el-banco) · **Siguiente:** [Plantillas en blanco](/ActividadesFPBComercio/10-banco-de-kudo-cards/03-plantillas-en-blanco)
+📚 [Volver al índice de Kudo Cards](/ActividadesFPBComercio/09-kudo-cards) · **Anterior:** [Cómo escribir un kudo](/ActividadesFPBComercio/09-kudo-cards/03-como-escribir-un-kudo) · **Siguiente:** [Tu kudo en digital](/ActividadesFPBComercio/09-kudo-cards/05-tu-kudo-en-digital)

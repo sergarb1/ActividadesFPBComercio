@@ -53,17 +53,8 @@ hero:
     <span class="num">9 · Kudo Cards</span>
   </div>
   <a href="/ActividadesFPBComercio/09-kudo-cards" class="title-link">🎁 Kudo Cards</a>
-  <p class="desc">Tarjetas de agradecimiento que cambian el clima: qué son, la caja o el mural, y las 6 reglas de oro.</p>
+  <p class="desc">Guía + banco: tarjetas de agradecimiento que cambian el clima. +50 tarjetas listas para imprimir y herramienta para mandarlas por correo.</p>
   <a href="/ActividadesFPBComercio/09-kudo-cards" class="unit-link">👉 Ver unidad 👈</a>
-</div>
-
-<div class="unit-card">
-  <div class="unit-card-header">
-    <span class="num">10 · Banco de tarjetas</span>
-  </div>
-  <a href="/ActividadesFPBComercio/10-banco-de-kudo-cards" class="title-link">🖨️ Banco de Kudo Cards</a>
-  <p class="desc">Más de 50 kudos listos para imprimir, plantillas en blanco y una herramienta para mandarlos por correo.</p>
-  <a href="/ActividadesFPBComercio/10-banco-de-kudo-cards" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
 </div>

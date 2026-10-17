@@ -1,11 +1,11 @@
 ---
-title: 4 — Tu kudo en digital
+title: 5 — Tu kudo en digital
 description: Enviar por correo, copiar o imprimir 📧
 ---
 
 <p><small>Enviar por correo, copiar o imprimir 📧</small></p>
 
-> 🗺️ **Estás en:** 🤝 **Banco de Kudo Cards** → 4 · Tu kudo en digital
+> 🗺️ **Estás en:** 🤝 **Kudo Cards** → 5 · Tu kudo en digital
 
 ---
 
@@ -133,4 +133,4 @@ description: Enviar por correo, copiar o imprimir 📧
 
 ---
 
-📚 [Volver al índice del Banco de Kudo Cards](/ActividadesFPBComercio/10-banco-de-kudo-cards) · **Anterior:** [Plantillas en blanco](/ActividadesFPBComercio/10-banco-de-kudo-cards/03-plantillas-en-blanco) · **Siguiente:** Tu sesión en 50 minutos (próximamente)
+📚 [Volver al índice de Kudo Cards](/ActividadesFPBComercio/09-kudo-cards) · **Anterior:** [Banco de tarjetas](/ActividadesFPBComercio/09-kudo-cards/04-banco-de-tarjetas) · **Siguiente:** Tu sesión en 50 minutos (próximamente)

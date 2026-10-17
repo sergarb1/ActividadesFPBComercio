@@ -1,17 +1,17 @@
 ---
-title: 4 — Cómo escribir un kudo
-description: La fórmula, los errores y la práctica ✍️
+title: 3 — Cómo escribir un kudo
+description: La fórmula, las plantillas y la práctica ✍️
 ---
 
-<p><small>La fórmula, los errores y la práctica ✍️</small></p>
+<p><small>La fórmula, las plantillas y la práctica ✍️</small></p>
 
-> 🗺️ **Estás en:** 🤝 **Kudo Cards** → 4 · Cómo escribir un kudo
+> 🗺️ **Estás en:** 🤝 **Kudo Cards** → 3 · Cómo escribir un kudo
 
 ---
 
 ## 📬 En corto
 
-> Un kudo de verdad tiene tres piezas: **concreto + comportamiento + impacto**. Con esa fórmula, cualquiera escribe uno decente en 30 segundos.
+> Un kudo de verdad tiene tres piezas: **concreto + comportamiento + impacto**. Con esa fórmula y las plantillas de este punto, cualquiera escribe uno decente en 30 segundos.
 
 ---
 
@@ -29,6 +29,8 @@ Ejemplos:
 
 Fíjate: el flojo es un **juicio** (se discute). El bueno es un **hecho** (nadie puede discutir que te quedaste a explicar la nómina).
 
+> 💡 **Consejo de ROSA:** "Si al escribirlo no te sale la línea de 'gracias a eso', no es un kudo todavía: es un cumplido. Vuelve al hecho."
+
 ---
 
 ## 😬 El fail de DANI: el kudo genérico
@@ -45,9 +47,49 @@ DANI quiso estrenar la Kudo Box de la tienda. Metió cinco tarjetas de golpe. Ro
 
 ---
 
+## 🖨️ Plantillas para rellenar
+
+Si ninguna tarjeta del [banco](/ActividadesFPBComercio/09-kudo-cards/04-banco-de-tarjetas) encaja, **escribe la tuya** con estas plantillas:
+
+### La plantilla maestra
+
+> **⭐ KUDO CARD ⭐**
+>
+> **Para:** ______________________
+> **De:** ______________________ *(o "Anónimo/a")*
+>
+> Gracias por ______________________________
+> (comportamiento concreto: qué hizo, cuándo, dónde)
+>
+> Gracias a eso ______________________________
+> (impacto: qué cambió para ti, para el grupo o para el trabajo)
+>
+> ______________________ *(firma, si el grupo ya funciona)*
+
+### La de la profe
+
+> **Para:** La profe de [módulo]
+> Gracias por ______________________________
+> Gracias a eso ______________________________
+> *(Se entrega igual: caja, mural o [correo digital](/ActividadesFPBComercio/09-kudo-cards/05-tu-kudo-en-digital))*
+
+### La de una frase (para tarjetas pequeñas)
+
+> **Para:** __________ — **De:** __________
+> Gracias por ____________________ porque ____________________.
+
+### La de grupo (varias firmas)
+
+> **Para:** __________
+> Gracias por ____________________ (cada firmante añade su línea).
+
+**Cómo usarlas:** Ctrl+P de esta página y recortar (o cópiala en un post-it); rellena con **hechos**, no con juicios; dobla y a la caja o al mural.
+
+---
+
 ## 🤝 Trabajo en equipo: El primer kudo de la clase
 
-**Objetivo:** estrenar la Kudo Box (o Wall) con tarjetas reales del grupo. **Tiempo:** 20 min · **Material:** tarjetas del [Banco de Kudo Cards](/ActividadesFPBComercio/10-banco-de-kudo-cards) (o post-its), bolígrafos, caja o mural.
+**Objetivo:** estrenar la Kudo Box (o Wall) con tarjetas reales del grupo. **Tiempo:** 20 min · **Material:** tarjetas del [banco](/ActividadesFPBComercio/09-kudo-cards/04-banco-de-tarjetas) (o post-its), bolígrafos, caja o mural.
 
 1. Cada persona elige **una tarjeta** del banco (o una en blanco) y escribe **un kudo con la fórmula** para un compañero, con nombre y hecho concreto.
 2. Doblada y sin firma (o firmando, si el grupo ya funciona), se deposita en la **Kudo Box**.
@@ -63,14 +105,14 @@ DANI quiso estrenar la Kudo Box de la tienda. Metió cinco tarjetas de golpe. Ro
 Piensa antes de ver las soluciones:
 
 1. Reescribe con la fórmula: "Gracias por ayudar".
-2. Tu profe de módulo te explicó dos veces un tema sin quejarse. Escribe el kudo para ella/él.
+2. Tu profe de módulo te explicó dos veces un tema sin quejarse. Escribe el kudo para ella/él con la plantilla maestra.
 3. ¿Por qué "gracias por sacar un 9" es un kudo flojo?
 
 <details>
 <summary>🔄 Respuestas</summary>
 
 1. Ejemplo: "Gracias por quedarte conmigo a repasar la factura cuando te estabas yendo; gracias a eso la entrego mañana sin sustos". (Comportamiento + impacto + concreción)
-2. Ejemplo: "Gracias por explicarme el IRPF dos veces con un ejemplo de nómina real; la segunda vez me cuadró todo". El kudo para la profe se entrega igual: caja, mural o correo (ver el [kudo digital](/ActividadesFPBComercio/10-banco-de-kudo-cards/04-tu-kudo-en-digital)).
+2. Ejemplo: "Gracias por explicarme el IRPF dos veces con un ejemplo de nómina real; la segunda vez me cuadró todo". El kudo para la profe se entrega igual: caja, mural o correo (ver la [herramienta digital](/ActividadesFPBComercio/09-kudo-cards/05-tu-kudo-en-digital)).
 3. Porque es el resultado, no el comportamiento. El comportamiento que lo produjo (practicar, preguntar, repetir) es lo que conviene reconocer: eso sí se repite.
 
 </details>
@@ -107,4 +149,28 @@ Rosa abre la Box un viernes. DANI escucha expectante.
 
 ---
 
-📚 [Volver al índice de Kudo Cards](/ActividadesFPBComercio/09-kudo-cards) · **Anterior:** [Las 6 reglas de oro](/ActividadesFPBComercio/09-kudo-cards/03-las-6-reglas-de-oro) · **Siguiente:** [Banco de Kudo Cards](/ActividadesFPBComercio/10-banco-de-kudo-cards)
+## 🧠 Mini-chequeo
+
+1. Rellena la plantilla maestra con un kudo real para alguien de tu clase.
+2. ¿Qué diferencia hay entre cumplido y kudo según la plantilla?
+3. ¿Cuándo eliges la plantilla "de grupo"?
+
+---
+
+## ✅ Resumen en 3 frases
+
+1. La fórmula es concreto + comportamiento + impacto; sin la línea de "gracias a eso" sigue siendo un cumplido.
+2. Las plantillas se imprimen con Ctrl+P o caben en un post-it; la de grupo permite varias firmas.
+3. Cinco tarjetas genéricas no valen una con nombre, hecho e impacto: el fail de DANI lo demuestra.
+
+---
+
+## 🐛 Vocabulario rápido
+
+- **Plantilla maestra:** el formato base de kudo que garantiza comportamiento + impacto.
+- **Cumplido:** halago genérico; el kudo es un cumplido con hechos.
+- **Placeholder:** el `[...]` entre corchetes que se completa con el hecho real.
+
+---
+
+📚 [Volver al índice de Kudo Cards](/ActividadesFPBComercio/09-kudo-cards) · **Anterior:** [La caja o el mural](/ActividadesFPBComercio/09-kudo-cards/02-la-caja-o-el-mural) · **Siguiente:** [Banco de tarjetas](/ActividadesFPBComercio/09-kudo-cards/04-banco-de-tarjetas)
