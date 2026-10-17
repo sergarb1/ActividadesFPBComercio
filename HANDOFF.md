@@ -45,7 +45,7 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 
 ## ✅ Añadido en este turno
 
-- **Skills instaladas en `.agents/skills/`**: las 7 de `nextlevelbuilder/ui-ux-pro-max-skill` (`ui-ux-pro-max`, `ui-styling`, `design-system`, `design`, `brand`, `slides`, `banner-design`) y `excalidraw-skill` (el skill del CLI npx que usamos para las imágenes). Documentadas en `AGENTS.md` → Notas para el agente, así se usan para revisar interfaces y diagramas sin tener que buscarlas.
+- **Skills instaladas en `.agents/skills/`**: las 7 de `nextlevelbuilder/ui-ux-pro-max-skill` (`ui-ux-pro-max`, `ui-styling`, `design-system`, `design`, `brand`, `slides`, `banner-design`), `excalidraw-skill` (el skill del CLI npx que usamos para las imágenes) y **`excalidraw-diagram`** (de `coleam00/excalidraw-diagram-skill`: diagramas que argumentan visualmente con bucle render→revisar→arreglar). La paleta de excalidraw-diagram ya está adaptada a la marca (#2563eb + teal, Excalifont, roughness 1). Pendiente su setup de render la primera vez que se use (uv sync + playwright chromium); hasta entonces, `render` offline del CLI. Documentadas en `AGENTS.md` → Notas para el agente.
 
 - **Unidad 5 · 🪟 El escaparate** (`05-el-escaparate`): idea en una frase y 3 niveles · vestir con tarjeta y carta y ciclo de renovación · juegos (escaparate exprés, ¿se renueva?, el precio escondido).
 - **Unidad 6 · 🔄 Devoluciones y reclamaciones** (`06-devoluciones-y-reclamaciones`): las 3 condiciones (ticket · plazo · estado) y garantía legal de 2 años · la hoja de reclamaciones entera (se da, se rellena, se sella y se envía) · juegos (¿procede?, hoja en 4 minutos, DANI responde).
