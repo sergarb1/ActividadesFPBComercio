@@ -8,7 +8,7 @@ Este archivo ayuda a cualquier agente LLM (opencode, Claude, ChatGPT, etc.) a en
 
 Web de **actividades para la FPB de Comercio** (alumnado de 16-17 años) en dos grandes secciones:
 
-- 🤝 **Sección 1 · Tutoría — Modo coop**: unidades de convivencia para las tutorías (10 unidades).
+- 🤝 **Sección 1 · Tutoría — Modo coop**: unidades de convivencia para las tutorías (12 unidades).
 - 💻 **Sección 2 · Contenidos**: destrezas y módulos (estudio, creatividad, comunicación, IPE II, proyecto de almacén OAA) (23 unidades).
 
 Estilo visual y pedagógico idéntico al proyecto hermano **ApuntesRedes** (`C:\Users\serga\Desktop\ApuntesRedes`): Astro + Starlight + GitHub Pages, azul #2563eb + teal #4ecdc4, glassmorphism, Geist Sans, es-ES.
@@ -63,7 +63,7 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ---
 
-## 📚 Temario completo (33 unidades pequeñas)
+## 📚 Temario completo (35 unidades pequeñas)
 
 Filosofía: **unidades pequeñas** (índice + 2-4 puntos). Cada tema del encargo es su propia unidad. **NO hay bloque de Aules** (decisión del usuario: eliminado).
 
@@ -79,58 +79,62 @@ Filosofía: **unidades pequeñas** (índice + 2-4 puntos). Cada tema del encargo
 | 6 | 🗣️ Decirlo sin liarla | `06-decirlo-sin-liarla` | Asertividad: Mensaje-Yo, escuchar y responder sin insultar |
 | 7 | ⚖️ Conflicto: modo sabio | `07-conflicto-modo-sabio` | Anatomía del conflicto, resolución paso a paso, acuerdos de clase |
 | 8 | 🎲 Banco de juegos | `08-banco-de-juegos` | Dinámicas de cohesión y de calma de conflictos, con fichas (objetivo, material, pasos, tiempo) |
-| 9 | 🎙️ Tu sesión en 50 minutos | `09-tu-sesion-en-50-minutos` | Guión de tutoría (tema libre: dinámicas, música, baile, deporte…) con título, objetivo, intro para compañeros, paso a paso, material y conclusiones. En Aules o en papel |
-| 10 | 📆 Turnos del aula | `10-turnos-del-aula` | Lista de responsables diarios: plantilla para imprimir y firmar |
+| 9 | 🎁 Kudo Cards | `09-kudo-cards` | Tarjetas de agradecimiento (Management 3.0): qué son y por qué funcionan, Kudo Box vs Kudo Wall, las 6 reglas de oro, cómo escribir un kudo |
+| 10 | 🖨️ Banco de Kudo Cards | `10-banco-de-kudo-cards` | +50 tarjetas listas para imprimir en 8 categorías, plantillas en blanco y herramienta digital de envío (mailto + copiar + imprimir) |
+| 11 | 🎙️ Tu sesión en 50 minutos | `11-tu-sesion-en-50-minutos` | Guión de tutoría (tema libre: dinámicas, música, baile, deporte…) con título, objetivo, intro para compañeros, paso a paso, material y conclusiones. En Aules o en papel |
+| 12 | 📆 Turnos del aula | `12-turnos-del-aula` | Lista de responsables diarios: plantilla para imprimir y firmar |
 
 ### 💻 Sección 2 · Contenidos
+
+> Renumeradas +2 tras la inserción de Kudo Cards (antes eran 11-33; ahora 13-35).
 
 #### 🧠 Estudiar sin sufrir
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 11 | 📖 Leer y entender | `11-leer-y-entender` | Lectura comprensiona del temario antes de subrayar |
-| 12 | ✏️ Subrayado | `12-subrayado` | Qué subrayar, con qué, y el subrayado que no sirve |
-| 13 | 🗂️ Esquemas y resúmenes | `13-esquemas-y-resumenes` | Mapas mentales, esquemas de flechas, resumen propio |
-| 14 | 📄 Textos en papel | `14-textos-en-papel` | Trabajar el temario impreso: marcadores, post-its, repaso manuscrito |
-| 15 | 🧠 Memorizar de verdad | `15-memorizar-de-verdad` | Leer, copiar, grabarse y decir en voz alta la lección |
-| 16 | ✅ Examen en blanco | `16-examen-en-blanco` | Practicar autoevaluación sin apuntes |
-| 17 | 🤖 IA: copiloto de estudio | `17-ia-copiloto-de-estudio` | IA para dudas, entender y memorizar con ejemplos reales; NO copiar y pegar |
+| 13 | 📖 Leer y entender | `13-leer-y-entender` | Lectura comprensiona del temario antes de subrayar |
+| 14 | ✏️ Subrayado | `14-subrayado` | Qué subrayar, con qué, y el subrayado que no sirve |
+| 15 | 🗂️ Esquemas y resúmenes | `15-esquemas-y-resumenes` | Mapas mentales, esquemas de flechas, resumen propio |
+| 16 | 📄 Textos en papel | `16-textos-en-papel` | Trabajar el temario impreso: marcadores, post-its, repaso manuscrito |
+| 17 | 🧠 Memorizar de verdad | `17-memorizar-de-verdad` | Leer, copiar, grabarse y decir en voz alta la lección |
+| 18 | ✅ Examen en blanco | `18-examen-en-blanco` | Practicar autoevaluación sin apuntes |
+| 19 | 🤖 IA: copiloto de estudio | `19-ia-copiloto-de-estudio` | IA para dudas, entender y memorizar con ejemplos reales; NO copiar y pegar |
 
 #### 🎨 Modo creativo
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 18 | 🎤 Monta tu presentación | `18-monta-tu-presentacion` | Buscar → recopilar → seleccionar → crear presentación propia |
-| 19 | 💡 Creatividad | `19-creatividad` | Qué es, cómo se estimula, actividades |
-| 20 | 🔍 Webgrafía | `20-webgrafia` | Qué es, fiabilidad de fuentes, cómo se elabora |
-| 21 | 🖼️ Bancos de imágenes libres | `21-bancos-de-imagenes-libres` | Pexels, Unsplash, Pixabay… |
-| 22 | ⚖️ Copyright | `22-copyright` | Qué es, licencias CC, uso educativo |
+| 20 | 🎤 Monta tu presentación | `20-monta-tu-presentacion` | Buscar → recopilar → seleccionar → crear presentación propia |
+| 21 | 💡 Creatividad | `21-creatividad` | Qué es, cómo se estimula, actividades |
+| 22 | 🔍 Webgrafía | `22-webgrafia` | Qué es, fiabilidad de fuentes, cómo se elabora |
+| 23 | 🖼️ Bancos de imágenes libres | `23-bancos-de-imagenes-libres` | Pexels, Unsplash, Pixabay… |
+| 24 | ⚖️ Copyright | `24-copyright` | Qué es, licencias CC, uso educativo |
 
 #### 💬 Hablar y escribir como un pro
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 23 | 📧 Correos que funcionan | `23-correos-que-funcionan` | Enviar correos bien escritos |
-| 24 | ↩️ Responder sin quemarse | `24-responder-sin-quemarse` | Responder, también al cliente enfadado |
-| 25 | 🆘 Incidencias de clientes | `25-incidencias-de-clientes` | Presencial, correo y redes sociales + guión de tarea |
-| 26 | 📰 Noticias de actualidad | `26-noticias-de-actualidad` | Guión tarea: recopilar, seleccionar y comentar noticias de comercio |
-| 27 | 🎬 Vídeos motivacionales | `27-videos-motivacionales` | Banco de enlaces + guión de visionado (comercio/MK, informática, IA, desarrollo personal, habilidades sociales). Sin incrustar |
-| 28 | 🤖 IA informática | `28-ia-informatica` | Qué es la IA, herramientas, aplicaciones prácticas |
+| 25 | 📧 Correos que funcionan | `25-correos-que-funcionan` | Enviar correos bien escritos |
+| 26 | ↩️ Responder sin quemarse | `26-responder-sin-quemarse` | Responder, también al cliente enfadado |
+| 27 | 🆘 Incidencias de clientes | `27-incidencias-de-clientes` | Presencial, correo y redes sociales + guión de tarea |
+| 28 | 📰 Noticias de actualidad | `28-noticias-de-actualidad` | Guión tarea: recopilar, seleccionar y comentar noticias de comercio |
+| 29 | 🎬 Vídeos motivacionales | `29-videos-motivacionales` | Banco de enlaces + guión de visionado (comercio/MK, informática, IA, desarrollo personal, habilidades sociales). Sin incrustar |
+| 30 | 🤖 IA informática | `30-ia-informatica` | Qué es la IA, herramientas, aplicaciones prácticas |
 
 #### 💶 Dinero, nóminas y curro (IPE II)
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 29 | 📑 El contrato de trabajo | `29-el-contrato-de-trabajo` | Tipos, partes, derechos. El módulo se llama **IPE II** (no expandir) |
-| 30 | 💰 Salario y nómina | `30-salario-y-nomina` | Partes de una nómina, bruto vs neto |
-| 31 | 📊 IRPF y cultura económica | `31-irpf-y-cultura-economica` | Impuestos básicos, cultura económica |
-| 32 | 🔭 Con y sin graduado | `32-con-y-sin-graduado` | Oportunidades laborales comparadas |
+| 31 | 📑 El contrato de trabajo | `31-el-contrato-de-trabajo` | Tipos, partes, derechos. El módulo se llama **IPE II** (no expandir) |
+| 32 | 💰 Salario y nómina | `32-salario-y-nomina` | Partes de una nómina, bruto vs neto |
+| 33 | 📊 IRPF y cultura económica | `33-irpf-y-cultura-economica` | Impuestos básicos, cultura económica |
+| 34 | 🔭 Con y sin graduado | `34-con-y-sin-graduado` | Oportunidades laborales comparadas |
 
 #### 🏪 Proyecto almacén (OAA)
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 33 | 🏪 Guión del proyecto de almacén | `33-guion-proyecto-almacen` | Guión del proyecto. El proyecto/módulo se llama **OAA** (no expandir) |
+| 35 | 🏪 Guión del proyecto de almacén | `35-guion-proyecto-almacen` | Guión del proyecto. El proyecto/módulo se llama **OAA** (no expandir) |
 
 ---
 
@@ -185,6 +189,16 @@ El contenido **no lleva números de unidad** (`U01`, `Unidad 5`…) en prosa, t�
 - `## 🎬 Poscréditos` — escena cómica corta con continuidad
 
 **Mínimo por unidad de tutoría:** ≥1 dinámica 🤝, ≥1 😬 El fail de DANI, ≥1 bloque con soluciones en `<details>`.
+
+### 🎁 Convenciones de Kudo Cards (unidades 9 y 10)
+
+- **Solo comportamientos:** los kudos reconocen hechos observables (ayudar, incluir, esforzarse, defender sin insultar). **Nunca** apariencia física, notas, ni "eres el mejor de la clase".
+- **Fórmula obligatoria:** concreto + comportamiento + impacto ("Gracias por X. Gracias a eso, Y"). Sin la línea de impacto es un cumplido, no un kudo.
+- **Anónimo solo con tensión:** si el grupo tiene conflictos vivos o "uno contra el grupo", las tarjetas se firman anónimas; cuando el clima mejora, vuelve la firma.
+- **Rotación:** ningún compañero recibe más de dos kudos por ronda; todos reciben al menos uno.
+- **Cantidad libre:** nunca por turno obligatorio (mata la técnica); sí estreno colectivo inicial en la dinámica "Primer kudo de la clase".
+- **Kudo hacia la profe:** válido y bienvenido (correo con la herramienta digital del punto 4 del banco).
+- **Herramienta digital:** frontend puro (JS inline en la página `04-tu-kudo-en-digital`), sin backend: mailto prellenado, copiar al portapapeles e imprimir. El correo del destinatario lo escribe el usuario.
 
 ### Plantilla de dinámica 🤝 (formato obligatorio)
 

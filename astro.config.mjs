@@ -3,8 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // ============================================================
 // Actividades FPB Comercio
-// Sección 1: 🤝 Tutoría (Modo coop) — unidades 01-10
-// Sección 2: 💻 Contenidos — unidades 11-33 (se añaden poco a poco)
+// Sección 1: 🤝 Tutoría (Modo coop) — unidades 01-12
+// Sección 2: 💻 Contenidos — unidades 13-35 (se añaden poco a poco)
 // IMPORTANTE: el sidebar solo puede enlazar páginas que existan.
 // Al crear una unidad nueva, añadirla aquí ANTES de comprobar el build.
 // ============================================================
@@ -46,11 +46,33 @@ const tutoriaItems = [
   // 6 · 🗣️ Decirlo sin liarla (en preparación)
   // 7 · ⚖️ Conflicto: modo sabio (en preparación)
   // 8 · 🎲 Banco de juegos (en preparación)
-  // 9 · 🎙️ Tu sesión en 50 minutos (en preparación)
-  // 10 · 📆 Turnos del aula (en preparación)
+  {
+    label: '9 · 🎁 Kudo Cards',
+    collapsed: true,
+    items: [
+      { slug: '09-kudo-cards', label: 'Índice' },
+      { slug: '09-kudo-cards/01-que-son-y-por-que-funcionan', label: '1 · Qué son y por qué funcionan' },
+      { slug: '09-kudo-cards/02-caja-o-mural', label: '2 · La caja o el mural' },
+      { slug: '09-kudo-cards/03-las-6-reglas-de-oro', label: '3 · Las 6 reglas de oro' },
+      { slug: '09-kudo-cards/04-como-escribir-un-kudo', label: '4 · Cómo escribir un kudo' },
+    ],
+  },
+  {
+    label: '10 · 🖨️ Banco de Kudo Cards',
+    collapsed: true,
+    items: [
+      { slug: '10-banco-de-kudo-cards', label: 'Índice' },
+      { slug: '10-banco-de-kudo-cards/01-como-usar-el-banco', label: '1 · Cómo usar el banco' },
+      { slug: '10-banco-de-kudo-cards/02-tarjetas-listas', label: '2 · 🖨️ Tarjetas listas' },
+      { slug: '10-banco-de-kudo-cards/03-plantillas-en-blanco', label: '3 · Plantillas en blanco' },
+      { slug: '10-banco-de-kudo-cards/04-tu-kudo-en-digital', label: '4 · 📧 Tu kudo en digital' },
+    ],
+  },
+  // 11 · 🎙️ Tu sesión en 50 minutos (en preparación)
+  // 12 · 📆 Turnos del aula (en preparación)
 ];
 
-// --- Sección 2 · Contenidos (unidades 11-33, se añaden poco a poco) ---
+// --- Sección 2 · Contenidos (unidades 13-35, se añaden poco a poco) ---
 // const contenidosItems = [ … ];
 
 export default defineConfig({
