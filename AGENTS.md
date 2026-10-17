@@ -68,7 +68,8 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 - **Publicadas:** **1-6** (taller de tienda completa) · **7-12** (estudiar: leer, subrayar, esquemas, papel, memorizar, examen).
 - **Retirado:** todo el bloque de tutoría anterior (recuperable en el historial de git).
 - **Siguiente lote:** 13 · IA: copiloto de estudio (cierra el bloque estudiar) y arrancar 14 · Monta tu presentación (creativo).
-- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 12 unidades publicadas.
+- **Especial publicada:** 🏆 El torneo del taller (`90-el-torneo-del-taller`, fuera de la numeración 1-29): liga de dinámicas por equipos con tabla en la pared y premios cooperativos.
+- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 12 unidades + especial.
 - **Traspaso de sesión:** [HANDOFF.md](HANDOFF.md) — se sobrescribe en cada sesión; el histórico queda en git.
 
 ---

@@ -84,7 +84,22 @@ Cada unidad trae **una actividad para hacer en el aula**: un caso, una plantilla
 
 </div>
 
-> **En camino:** 🚚 Proveedores y pedidos y más puntos del taller. El plan completo está en [AGENTS.md](https://github.com/sergarb1/ActividadesFPBComercio/blob/main/AGENTS.md) (29 unidades).
+> **En camino:** 🚚 Proveedores y pedidos y más puntos del taller. El plan completo está en [AGENTS.md](https://github.com/sergarb1/ActividadesFPBComercio/blob/main/AGENTS.md) (29 unidades + especial).
+
+## 🏆 El torneo del taller
+
+<div class="unit-grid">
+
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">Especial · Torneo</span>
+  </div>
+  <a href="/ActividadesFPBComercio/90-el-torneo-del-taller" class="title-link">🏆 El torneo del taller</a>
+  <p class="desc">La liga de dinámicas del trimestre: equipos sorteados, puntos por semana en la pared y premios que gana el grupo entero.</p>
+  <a href="/ActividadesFPBComercio/90-el-torneo-del-taller" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+</div>
 
 ## 📚 Estudiar sin sufrir
 

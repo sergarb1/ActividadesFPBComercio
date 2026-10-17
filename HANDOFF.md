@@ -43,6 +43,13 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 
 - **Siguiente lote:** 13 · 🤖 IA: copiloto de estudio (cierra el bloque estudiar) + arrancar el bloque creativo (14 · Monta tu presentación).
 
+## 🏆 Especial nueva: El torneo del taller
+
+- **`90-el-torneo-del-taller`** (unidad especial, numeración aparte del 1-29): semana 0 (equipos sorteados + roles rotativos + manifiesto) · tabla en la pared con puntos semanales y final a x2 · premios cooperativos con voto (nada de notas, dinero ni castigos).
+- 3 fichas: cómo se juega · la tabla y los premios · la final y los logros (más el archivo del torneo).
+- **2 imágenes Excalidraw** con `scripts/gen-tienda-90.py`. Reto del CLI resuelto: los textos vacíos dentro de cajas rompen el render ("Scene restore lost element"), ahora se omiten.
+- Sidebar con grupo "90 · 🏆 El torneo del taller (especial)" y tarjeta nueva en la landing.
+
 ## ✅ Añadido después (mismo día)
 
 - **Unidad 11 · 🧠 Memorizar de verdad** (`11-memorizar-de-verdad`): ciclo leer→copiar→tapar→decir · semáforo del conocimiento y repaso 1-3-7 · juegos (cadena de memoria, el vendedor que sabe, duelo 1-3-7).
@@ -68,6 +75,7 @@ python scripts/gen-tienda-images.py   # escenas 1-2
 python scripts/gen-tienda-2.py        # escenas 3-4
 python scripts/gen-tienda-3.py        # escenas 5-6
 python scripts/gen-tienda-4.py        # escenas 11-12
+python scripts/gen-tienda-90.py       # escenas del torneo
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format svg --out x.svg
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format png --out x.png
 ```

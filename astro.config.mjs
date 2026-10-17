@@ -91,6 +91,16 @@ const contenidosItems = [
     ],
   },
   {
+    label: '90 · 🏆 El torneo del taller (especial)',
+    collapsed: true,
+    items: [
+      { slug: '90-el-torneo-del-taller', label: 'Índice' },
+      { slug: '90-el-torneo-del-taller/01-como-se-juega', label: '1 · Cómo se juega' },
+      { slug: '90-el-torneo-del-taller/02-la-tabla-y-los-premios', label: '2 · La tabla y los premios' },
+      { slug: '90-el-torneo-del-taller/03-la-final-y-los-logros', label: '3 · 🏆 La final y los logros' },
+    ],
+  },
+  {
     label: '07 · 📖 Leer y entender',
     collapsed: true,
     items: [
