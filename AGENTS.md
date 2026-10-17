@@ -6,10 +6,9 @@ Este archivo ayuda a cualquier agente LLM (opencode, Claude, ChatGPT, etc.) a en
 
 ## 📋 Descripción del proyecto
 
-Web de **actividades para la FPB de Comercio** (alumnado de 16-17 años) en dos grandes secciones:
+Web de **actividades de aula para la FPB de Comercio** (alumnado de 16-17 años): fichas para hacer en clase sobre el oficio de tienda (mostrador, caja, almacén, escaparate, clientes) y las destrezas que necesitan para aprobar.
 
-- 🤝 **Sección 1 · Tutoría — Modo coop**: unidades de convivencia para las tutorías (11 unidades).
-- 💻 **Sección 2 · Contenidos**: destrezas y módulos (estudio, creatividad, comunicación, IPE II, proyecto de almacén OAA) (23 unidades).
+> 📌 **Criterio del usuario (17/10/2026):** el repo es de **actividades para el alumnado**, no de apuntes. Cada ficha debe terminar con algo que el grupo haga en clase (caso, plantilla, role-play, reto). La teoría, al mínimo.
 
 Estilo visual y pedagógico idéntico al proyecto hermano **ApuntesRedes** (`C:\Users\serga\Desktop\ApuntesRedes`): Astro + Starlight + GitHub Pages, azul #2563eb + teal #4ecdc4, glassmorphism, Geist Sans, es-ES.
 
@@ -66,87 +65,79 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ## 📍 Estado actual (actualizar al publicar unidades)
 
-- **Publicadas en formato ficha:** 1 · Confianza real · 2 · Ponte en su sitio · 3 · Modo equipo (en reconversión) · 9 · Kudo Cards · **12 · Leer y entender** · **13 · Subrayado** · **14 · Esquemas y resúmenes** · **15 · Textos en papel**.
-- **Siguiente lote acordado:** 16 · Memorizar de verdad y 17 · Examen en blanco (lotes de 1-2 unidades, con checkpoint de tono del usuario).
-- **Última verificación:** `npm run build` ✓ (36 páginas) · `npm run docx` ✓ (8 DOCX, 0 fallos) · imágenes Excalidraw de las unidades 12-15 en los 3 formatos.
-- **Prioridad editorial (usuario):** cada ficha debe ser una **actividad de aula para el alumnado** (plantilla, dinámica, reto, ejercicio con huecos), no teoría. Lo "viejo" importa menos: si hay que elegir, primero materiales que se usen en clase.
+- **Publicadas:** **12 · Leer y entender** · **13 · Subrayado** · **14 · Esquemas y resúmenes** · **15 · Textos en papel** · **16 · El mostrador** · **17 · La caja y el cobro**.
+- **Retiradas del repo:** 1 · Confianza real · 2 · Ponte en su sitio · 3 · Modo equipo · 9 · Kudo Cards (decisión del usuario: no se trabaja más en ellas; recuperables en git).
+- **Siguiente lote:** 18 · Reposición y almacén y 19 · Inventario y stock (taller de tienda, formato actividad).
+- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las unidades 12-17 en los 3 formatos.
 - **Traspaso de sesión:** [HANDOFF.md](HANDOFF.md) — se sobrescribe en cada sesión; el histórico queda en git.
 
 ---
 
-## 📚 Temario completo (34 unidades pequeñas)
+## 📚 Temario (40 unidades pequeñas, en construcción)
 
-Filosofía: **unidades pequeñas** (índice + 2-4 puntos = fichas). Cada tema del encargo es su propia unidad. **NO hay bloque de Aules** (decisión del usuario: eliminado).
+Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: 12-17. Todo lo que se escriba a partir de aquí sigue el formato ficha y termina en algo que el alumnado hace.
 
-> 🔄 **En reconversión a fichas:** unidades 1, 2, 3 y 9 se están convirtiendo al formato de ficha (índice + puntos). Las nuevas unidades se escriben ya en formato ficha desde el primer borrador. **✅ Publicadas en ficha: 12 (`leer-y-entender`) y 13 (`subrayado`).**
+> 🗑️ **Retiradas del repo (17/10/2026, por petición del usuario):** 1 Confianza real · 2 Ponte en su sitio · 3 Modo equipo · 9 Kudo Cards. Recuperables en el historial (`git log --all -- src/content/docs/01-confianza-real.md`). Las antiguas 4-8, 10 y 11 (tutoría) quedan **aparcadas sin numerar**: no se trabaja en ellas salvo petición expresa.
 
-### 🤝 Sección 1 · Tutoría — Modo coop: la clase que funciona
+#### 🏪 Taller de tienda
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 1 | 🌱 Confianza real | `01-confianza-real` | Autoestima: qué es, cómo se cuida, dejar de decirse "no sirvo para nada" |
-| 2 | 🎭 Ponte en su sitio | `02-ponte-en-su-sitio` | Empatía: sentirla, practicarla, cyberempatía |
-| 3 | 🧩 Modo equipo | `03-modo-equipo` | Compañerismo: nadie se queda solo, gestos que se notan |
-| 4 | 🛡️ Líneas rojas | `04-lineas-rojas` | Respeto, límites personales y cero bullying (tipos, señales, "uno contra el grupo") |
-| 5 | 🔓 El insulto no es poder | `05-el-insulto-no-es-poder` | No dar al insulto la reacción que busca; el límite: persiste → se avisa |
-| 6 | 🗣️ Decirlo sin liarla | `06-decirlo-sin-liarla` | Asertividad: Mensaje-Yo, escuchar y responder sin insultar |
-| 7 | ⚖️ Conflicto: modo sabio | `07-conflicto-modo-sabio` | Anatomía del conflicto, resolución paso a paso, acuerdos de clase |
-| 8 | 🎲 Banco de juegos | `08-banco-de-juegos` | Dinámicas de cohesión y de calma de conflictos, con fichas (objetivo, material, pasos, tiempo) |
-| 9 | 🎁 Kudo Cards | `09-kudo-cards` | **Unidad única (guía + banco):** qué son y las 6 reglas de oro, la caja o el mural + 5 reglas del banco, cómo escribir un kudo (fórmula + plantillas), banco de +50 tarjetas listas en 8 categorías y herramienta digital de envío (mailto + copiar + imprimir) |
-| 10 | 🎙️ Tu sesión en 50 minutos | `10-tu-sesion-en-50-minutos` | Guión de tutoría (tema libre: dinámicas, música, baile, deporte…) con título, objetivo, intro para compañeros, paso a paso, material y conclusiones. En Aules o en papel |
-| 11 | 📆 Turnos del aula | `11-turnos-del-aula` | Lista de responsables diarios: plantilla para imprimir y firmar |
-
-### 💻 Sección 2 · Contenidos
-
-> Renumeradas +1 tras unificar Kudo Cards en una sola unidad (antes eran 13-35; ahora 12-34).
+| 16 | 🛒 El mostrador | `16-el-mostrador` | ✅ Guion de 5 pasos, objeciones, clientes difíciles, role-play y juegos |
+| 17 | 💶 La caja y el cobro | `17-caja-y-cobro` | ✅ Cobro (efectivo/tarjeta/móvil), cambio hacia arriba, arqueo y descuadres |
+| 18 | 🗃️ Reposición y almacén | `18-reposicion-y-almacen` | Recibir mercancía, colocar por familias, huecos y lineal |
+| 19 | 🧮 Inventario y stock | `19-inventario-y-stock` | Contar, registrar, detectar roturas y faltas |
+| 20 | 🪟 El escaparate | `20-el-escaparate` | Montar un escaparate con material real y cartelería |
+| 21 | 🔄 Devoluciones y reclamaciones | `21-devoluciones-y-reclamaciones` | Hojas de reclamación, plazos, garantía y trato al cliente |
 
 #### 🧠 Estudiar sin sufrir
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 12 | 📖 Leer y entender | `12-leer-y-entender` | Lectura comprensiva del temario antes de subrayar |
-| 13 | ✏️ Subrayado | `13-subrayado` | Qué subrayar, con qué, y el subrayado que no sirve |
-| 14 | 🗂️ Esquemas y resúmenes | `14-esquemas-y-resumenes` | Mapas mentales, esquemas de flechas, resumen propio |
-| 15 | 📄 Textos en papel | `15-textos-en-papel` | Trabajar el temario impreso: marcadores, post-its, repaso manuscrito |
-| 16 | 🧠 Memorizar de verdad | `16-memorizar-de-verdad` | Leer, copiar, grabarse y decir en voz alta la lección |
-| 17 | ✅ Examen en blanco | `17-examen-en-blanco` | Practicar autoevaluación sin apuntes |
-| 18 | 🤖 IA: copiloto de estudio | `18-ia-copiloto-de-estudio` | IA para dudas, entender y memorizar con ejemplos reales; NO copiar y pegar |
+| 12 | 📖 Leer y entender | `12-leer-y-entender` | ✅ Lectura comprensiva antes de subrayar |
+| 13 | ✏️ Subrayado | `13-subrayado` | ✅ Qué subrayar, con qué, y el subrayado que no sirve |
+| 14 | 🗂️ Esquemas y resúmenes | `14-esquemas-y-resumenes` | ✅ Mapas mentales, esquemas de flechas, resumen propio |
+| 15 | 📄 Textos en papel | `15-textos-en-papel` | ✅ Marcadores, post-its y repaso manuscrito |
+| 22 | 🧠 Memorizar de verdad | `22-memorizar-de-verdad` | Leer, copiar, grabarse y decir en voz alta la lección |
+| 23 | ✅ Examen en blanco | `23-examen-en-blanco` | Practicar autoevaluación sin apuntes |
+| 24 | 🤖 IA: copiloto de estudio | `24-ia-copiloto-de-estudio` | IA para dudas y ejemplos; NO copiar y pegar |
 
 #### 🎨 Modo creativo
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 19 | 🎤 Monta tu presentación | `19-monta-tu-presentacion` | Buscar → recopilar → seleccionar → crear presentación propia |
-| 20 | 💡 Creatividad | `20-creatividad` | Qué es, cómo se estimula, actividades |
-| 21 | 🔍 Webgrafía | `21-webgrafia` | Qué es, fiabilidad de fuentes, cómo se elabora |
-| 22 | 🖼️ Bancos de imágenes libres | `22-bancos-de-imagenes-libres` | Pexels, Unsplash, Pixabay… |
-| 23 | ⚖️ Copyright | `23-copyright` | Qué es, licencias CC, uso educativo |
+| 25 | 🎤 Monta tu presentación | `25-monta-tu-presentacion` | Buscar → recopilar → seleccionar → crear presentación propia |
+| 26 | 💡 Creatividad | `26-creatividad` | Qué es, cómo se estimula, actividades |
+| 27 | 🔍 Webgrafía | `27-webgrafia` | Qué es, fiabilidad de fuentes, cómo se elabora |
+| 28 | 🖼️ Bancos de imágenes libres | `28-bancos-de-imagenes-libres` | Pexels, Unsplash, Pixabay… |
+| 29 | ⚖️ Copyright | `29-copyright` | Qué es, licencias CC, uso educativo |
 
 #### 💬 Hablar y escribir como un pro
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 24 | 📧 Correos que funcionan | `24-correos-que-funcionan` | Enviar correos bien escritos |
-| 25 | ↩️ Responder sin quemarse | `25-responder-sin-quemarse` | Responder, también al cliente enfadado |
-| 26 | 🆘 Incidencias de clientes | `26-incidencias-de-clientes` | Presencial, correo y redes sociales + guión de tarea |
-| 27 | 📰 Noticias de actualidad | `27-noticias-de-actualidad` | Guión tarea: recopilar, seleccionar y comentar noticias de comercio |
-| 28 | 🎬 Vídeos motivacionales | `28-videos-motivacionales` | Banco de enlaces + guión de visionado (comercio/MK, informática, IA, desarrollo personal, habilidades sociales). Sin incrustar |
-| 29 | 🤖 IA informática | `29-ia-informatica` | Qué es la IA, herramientas, aplicaciones prácticas |
+| 30 | 📧 Correos que funcionan | `30-correos-que-funcionan` | Enviar correos bien escritos |
+| 31 | ↩️ Responder sin quemarse | `31-responder-sin-quemarse` | Responder, también al cliente enfadado |
+| 32 | 🆘 Incidencias de clientes | `32-incidencias-de-clientes` | Presencial, correo y redes sociales + guión de tarea |
+| 33 | 📰 Noticias de actualidad | `33-noticias-de-actualidad` | Recopilar, seleccionar y comentar noticias de comercio |
+| 34 | 🎬 Vídeos motivacionales | `34-videos-motivacionales` | Banco de enlaces + guión de visionado |
+| 35 | 🤖 IA informática | `35-ia-informatica` | Qué es la IA, herramientas, aplicaciones prácticas |
 
 #### 💶 Dinero, nóminas y curro (IPE II)
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 30 | 📑 El contrato de trabajo | `30-el-contrato-de-trabajo` | Tipos, partes, derechos. El módulo se llama **IPE II** (no expandir) |
-| 31 | 💰 Salario y nómina | `31-salario-y-nomina` | Partes de una nómina, bruto vs neto |
-| 32 | 📊 IRPF y cultura económica | `32-irpf-y-cultura-economica` | Impuestos básicos, cultura económica |
-| 33 | 🔭 Con y sin graduado | `33-con-y-sin-graduado` | Oportunidades laborales comparadas |
+| 36 | 📑 El contrato de trabajo | `36-el-contrato-de-trabajo` | Tipos, partes, derechos. El módulo se llama **IPE II** (no expandir) |
+| 37 | 💰 Salario y nómina | `37-salario-y-nomina` | Partes de una nómina, bruto vs neto |
+| 38 | 📊 IRPF y cultura económica | `38-irpf-y-cultura-economica` | Impuestos básicos, cultura económica |
+| 39 | 🔭 Con y sin graduado | `39-con-y-sin-graduado` | Oportunidades laborales comparadas |
 
 #### 🏪 Proyecto almacén (OAA)
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 34 | 🏪 Guión del proyecto de almacén | `34-guion-proyecto-almacen` | Guión del proyecto. El proyecto/módulo se llama **OAA** (no expandir) |
+| 40 | 🏪 Guión del proyecto de almacén | `40-guion-proyecto-almacen` | Guión del proyecto. El proyecto/módulo se llama **OAA** (no expandir) |
+
 
 ---
 
@@ -172,7 +163,7 @@ El contenido **no lleva números de unidad** (`U01`, `Unidad 5`…) en prosa, t�
 
 **Índice de cada unidad** (`src/content/docs/NN-nombre.md`):
 
-1. `<p><small>…</small></p>` + mapa: `> 🗺️ **El mapa:** 🤝 Tutoría → **AQUÍ ESTÁS** → …`
+1. `<p><small>…</small></p>` + mapa: `> 🗺️ **El mapa:** 🏪 Taller de tienda → **AQUÍ ESTÁS** → …`
 2. `## 🎯 Objetivo de la unidad`
 3. `## 🗺️ Mapa de la unidad` — tabla que enlaza cada punto
 4. `## 🎲 Actividades y juegos de la unidad` — enlaces `<a href>` a los puntos de práctica
@@ -341,7 +332,7 @@ npx -y mcp-excalidraw-server clear --yes
 - [ ] Sin números de unidad en prosa ni títulos
 - [ ] Índice: objetivo, mapa (tabla), actividades, ¿por dónde empiezo?, pie
 - [ ] Cada punto (ficha): 📬 En corto, 💡 Lo que hay que saber, cabecera Nombre/Fecha/Grupo, ✍️ A por ellos, soluciones en `<details>`, 🔑 Para el profe, pie Anterior/Siguiente
-- [ ] Tutoría: ≥1 dinámica 🤝 + ≥1 😬 fail de DANI + soluciones en `<details>`
+- [ ] Actividad de aula real (caso, plantilla, role-play o reto) + ≥1 😬 fail de DANI + soluciones en `<details>`
 - [ ] Imagen Excalidraw de la ficha: `.svg` + `.png` en `public/img/NN-nombre/` + `.excalidraw` en `public/img/fuentes/`
 - [ ] Enlaces solo a páginas existentes (contenido, sidebar y landing)
 - [ ] Sidebar actualizado en `astro.config.mjs` (solo páginas existentes; el build falla con enlaces rotos)

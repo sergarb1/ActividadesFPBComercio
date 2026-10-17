@@ -3,66 +3,12 @@ import starlight from '@astrojs/starlight';
 
 // ============================================================
 // Actividades FPB Comercio
-// Sección 1: 🤝 Tutoría (Modo coop) — unidades 01-11
-// Sección 2: 💻 Contenidos — unidades 12-34 (se añaden poco a poco)
+// Actividades de aula para FPB Comercio (17 unidades y creciendo)
 // IMPORTANTE: el sidebar solo puede enlazar páginas que existan.
 // Al crear una unidad nueva, añadirla aquí ANTES de comprobar el build.
 // ============================================================
 
-// --- Sección 1 · Tutoría (unidades creadas; añadir las nuevas aquí) ---
-const tutoriaItems = [
-  {
-    label: '1 · 🌱 Confianza real',
-    collapsed: true,
-    items: [
-      { slug: '01-confianza-real', label: 'Índice' },
-      { slug: '01-confianza-real/01-que-es-la-confianza-real', label: '1 · Qué es la confianza real' },
-      { slug: '01-confianza-real/02-como-se-cuida', label: '2 · Cómo se cuida' },
-      { slug: '01-confianza-real/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
-    ],
-  },
-  {
-    label: '2 · 🎭 Ponte en su sitio',
-    collapsed: true,
-    items: [
-      { slug: '02-ponte-en-su-sitio', label: 'Índice' },
-      { slug: '02-ponte-en-su-sitio/01-que-es-la-empatia', label: '1 · Qué es la empatía' },
-      { slug: '02-ponte-en-su-sitio/02-como-practicarla', label: '2 · Cómo se practica' },
-      { slug: '02-ponte-en-su-sitio/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
-    ],
-  },
-  {
-    label: '3 · 🧩 Modo equipo',
-    collapsed: true,
-    items: [
-      { slug: '03-modo-equipo', label: 'Índice' },
-      { slug: '03-modo-equipo/01-companerismo', label: '1 · Qué es el compañerismo' },
-      { slug: '03-modo-equipo/02-gestos-que-se-notan', label: '2 · Gestos que se notan' },
-      { slug: '03-modo-equipo/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
-    ],
-  },
-  // 4 · 🛡️ Líneas rojas (en preparación)
-  // 5 · 🔓 El insulto no es poder (en preparación)
-  // 6 · 🗣️ Decirlo sin liarla (en preparación)
-  // 7 · ⚖️ Conflicto: modo sabio (en preparación)
-  // 8 · 🎲 Banco de juegos (en preparación)
-  {
-    label: '9 · 🎁 Kudo Cards',
-    collapsed: true,
-    items: [
-      { slug: '09-kudo-cards', label: 'Índice' },
-      { slug: '09-kudo-cards/01-que-son-y-las-6-reglas-de-oro', label: '1 · Qué son y las 6 reglas de oro' },
-      { slug: '09-kudo-cards/02-la-caja-o-el-mural', label: '2 · La caja o el mural' },
-      { slug: '09-kudo-cards/03-como-escribir-un-kudo', label: '3 · Cómo escribir un kudo' },
-      { slug: '09-kudo-cards/04-banco-de-tarjetas', label: '4 · 🖨️ Banco de tarjetas' },
-      { slug: '09-kudo-cards/05-tu-kudo-en-digital', label: '5 · 📧 Tu kudo en digital' },
-    ],
-  },
-  // 10 · 🎙️ Tu sesión en 50 minutos (en preparación)
-  // 11 · 📆 Turnos del aula (en preparación)
-];
-
-// --- Sección 2 · Contenidos (unidades 12-34, se añaden poco a poco) ---
+// --- Actividades (se añaden poco a poco) ---
 const contenidosItems = [
   {
     label: '12 · 📖 Leer y entender',
@@ -104,6 +50,26 @@ const contenidosItems = [
       { slug: '15-textos-en-papel/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
+  {
+    label: '16 · 🛒 El mostrador',
+    collapsed: true,
+    items: [
+      { slug: '16-el-mostrador', label: 'Índice' },
+      { slug: '16-el-mostrador/01-guion-de-los-5-pasos', label: '1 · El guion de los 5 pasos' },
+      { slug: '16-el-mostrador/02-objeciones-y-clientes-dificiles', label: '2 · Objeciones y clientes difíciles' },
+      { slug: '16-el-mostrador/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
+    label: '17 · 💶 La caja y el cobro',
+    collapsed: true,
+    items: [
+      { slug: '17-caja-y-cobro', label: 'Índice' },
+      { slug: '17-caja-y-cobro/01-cobrar-sin-errores', label: '1 · Cobrar sin errores' },
+      { slug: '17-caja-y-cobro/02-arqueo-de-caja', label: '2 · El arqueo de caja' },
+      { slug: '17-caja-y-cobro/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
 ];
 
 export default defineConfig({
@@ -129,10 +95,6 @@ export default defineConfig({
       ],
       sidebar: [
         { slug: 'index', label: 'Inicio' },
-        {
-          label: '🤝 Tutoría — Modo coop',
-          items: tutoriaItems,
-        },
         {
           label: '💻 Contenidos',
           items: contenidosItems,
