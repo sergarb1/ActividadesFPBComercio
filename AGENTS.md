@@ -157,7 +157,7 @@ description: Descripción corta con emoji 😌
 El contenido **no lleva números de unidad** (`U01`, `Unidad 5`…) en prosa, títulos, migajas ni enlaces: así se reordena sin reescribir. En su lugar:
 
 - Referencias → *"en la unidad de empatía"*, *"en el banco de juegos"*.
-- **Exentos:** etiquetas del sidebar en `astro.config.mjs` y nombres de fichero/URLs (`01-confianza-real/02-como-se-cuida`).
+- **Exentos:** etiquetas del sidebar en `astro.config.mjs` y nombres de fichero/URLs (`16-el-mostrador/01-guion-de-los-5-pasos`).
 
 ### Secciones obligatorias
 
@@ -257,17 +257,6 @@ Respuestas siempre en <details><summary>🔄 Soluciones</summary>…</details>
 - `## 🎬 Poscréditos` — escena cómica corta con continuidad
 
 **Mínimo por unidad de tutoría:** ≥1 dinámica 🤝, ≥1 😬 El fail de DANI, ≥1 bloque con soluciones en `<details>`.
-
-### 🎁 Convenciones de Kudo Cards (unidad 9)
-
-- **Solo comportamientos:** los kudos reconocen hechos observables (ayudar, incluir, esforzarse, defender sin insultar). **Nunca** apariencia física, notas, ni "eres el mejor de la clase".
-- **Fórmula obligatoria:** concreto + comportamiento + impacto ("Gracias por X. Gracias a eso, Y"). Sin la línea de impacto es un cumplido, no un kudo.
-- **Anónimo solo con tensión:** si el grupo tiene conflictos vivos o "uno contra el grupo", las tarjetas se firman anónimas; cuando el clima mejora, vuelve la firma.
-- **Rotación:** ningún compañero recibe más de dos kudos por ronda; todos reciben al menos uno.
-- **Cantidad libre:** nunca por turno obligatorio (mata la técnica); sí estreno colectivo inicial en la dinámica "Primer kudo de la clase".
-- **Kudo hacia la profe:** válido y bienvenido (correo con la herramienta digital del punto 5).
-- **Herramienta digital:** frontend puro (JS inline en la página `09-kudo-cards/05-tu-kudo-en-digital`), sin backend: mailto prellenado, copiar al portapapeles e imprimir. El correo del destinatario lo escribe el usuario.
-- **Estructura de la unidad:** unidad única con 5 puntos (no dos unidades): guía + banco + herramienta juntos. Los puntos se mantienen largos y completos; no fragmentar en puntos cortos.
 
 ### Plantilla de dinámica 🤝 (formato obligatorio)
 
