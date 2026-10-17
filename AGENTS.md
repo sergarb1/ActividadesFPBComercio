@@ -34,7 +34,8 @@ Estilo visual y pedagógico idéntico al proyecto hermano **ApuntesRedes** (`C:\
 - **Repo/GitHub Pages:** `ActividadesFPBComercio` → base path `/ActividadesFPBComercio`, site `https://sergarb1.github.io/ActividadesFPBComercio`
 - **Despliegue:** GitHub Actions → GitHub Pages en rama `main`
 - **DOCX por unidad:** Pandoc 3.8+ (CLI en PATH) vía `npm run docx` → `docx/<unidad>/<unidad>.docx` (índice + puntos; el script descubre las unidades solas). **Tras editar contenido de unidades, regenerar con `npm run docx` y commitear los DOCX.** Los enlaces internos se convierten en URLs de GitHub Pages para que el DOCX quede con enlaces vivos. Los bloques `<details>` se pierden en DOCX (las soluciones aparecen sin spoiler, aceptado por diseño).
-- **Sin PDF/EPUB ni diagramas Excalidraw por ahora** (tablas, listas y emojis cubren la necesidad visual)
+- **Imágenes Excalidraw por ficha:** SVG + PNG en `public/img/NN-nombre/` y fuente `.excalidraw` en `public/img/fuentes/`. Se generan con el CLI del skill `excalidraw-skill` del repo hermano `PresentacionesEducativas` (funciona headless): `npx -y mcp-excalidraw-server <add|export|screenshot|snapshot|restore>`. Las capturas se exportan con `screenshot --format svg` y `screenshot` (PNG).
+- **Sin PDF/EPUB por ahora** (tablas, listas y emojis cubren la necesidad visual)
 
 ---
 
@@ -63,9 +64,21 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ---
 
+## 📍 Estado actual (actualizar al publicar unidades)
+
+- **Publicadas en formato ficha:** 1 · Confianza real · 2 · Ponte en su sitio · 3 · Modo equipo (en reconversión) · 9 · Kudo Cards · **12 · Leer y entender** · **13 · Subrayado** · **14 · Esquemas y resúmenes** · **15 · Textos en papel**.
+- **Siguiente lote acordado:** 16 · Memorizar de verdad y 17 · Examen en blanco (lotes de 1-2 unidades, con checkpoint de tono del usuario).
+- **Última verificación:** `npm run build` ✓ (36 páginas) · `npm run docx` ✓ (8 DOCX, 0 fallos) · imágenes Excalidraw de las unidades 12-15 en los 3 formatos.
+- **Prioridad editorial (usuario):** cada ficha debe ser una **actividad de aula para el alumnado** (plantilla, dinámica, reto, ejercicio con huecos), no teoría. Lo "viejo" importa menos: si hay que elegir, primero materiales que se usen en clase.
+- **Traspaso de sesión:** [HANDOFF.md](HANDOFF.md) — se sobrescribe en cada sesión; el histórico queda en git.
+
+---
+
 ## 📚 Temario completo (34 unidades pequeñas)
 
-Filosofía: **unidades pequeñas** (índice + 2-4 puntos). Cada tema del encargo es su propia unidad. **NO hay bloque de Aules** (decisión del usuario: eliminado).
+Filosofía: **unidades pequeñas** (índice + 2-4 puntos = fichas). Cada tema del encargo es su propia unidad. **NO hay bloque de Aules** (decisión del usuario: eliminado).
+
+> 🔄 **En reconversión a fichas:** unidades 1, 2, 3 y 9 se están convirtiendo al formato de ficha (índice + puntos). Las nuevas unidades se escriben ya en formato ficha desde el primer borrador. **✅ Publicadas en ficha: 12 (`leer-y-entender`) y 13 (`subrayado`).**
 
 ### 🤝 Sección 1 · Tutoría — Modo coop: la clase que funciona
 
@@ -91,7 +104,7 @@ Filosofía: **unidades pequeñas** (índice + 2-4 puntos). Cada tema del encargo
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 12 | 📖 Leer y entender | `12-leer-y-entender` | Lectura comprensiona del temario antes de subrayar |
+| 12 | 📖 Leer y entender | `12-leer-y-entender` | Lectura comprensiva del temario antes de subrayar |
 | 13 | ✏️ Subrayado | `13-subrayado` | Qué subrayar, con qué, y el subrayado que no sirve |
 | 14 | 🗂️ Esquemas y resúmenes | `14-esquemas-y-resumenes` | Mapas mentales, esquemas de flechas, resumen propio |
 | 15 | 📄 Textos en papel | `15-textos-en-papel` | Trabajar el temario impreso: marcadores, post-its, repaso manuscrito |
@@ -166,13 +179,78 @@ El contenido **no lleva números de unidad** (`U01`, `Unidad 5`…) en prosa, t�
 5. `## 🚪 ¿Por dónde empiezo?`
 6. Pie: `**📍 Primer punto:** […] · **⏭️ Al acabar, continúa en […](…)**`
 
-**Plantilla de cada punto:**
+### 📄 Formato de ficha (obligatorio — desde la reconversión)
 
-1. Frontmatter + `<p><small>…</small></p>` + breadcrumb `> 🗺️ **Estás en:** 🤝 **Nombre de la unidad** → N · Título`
-2. `## 📬 En corto` — idea en una frase
-3. Desarrollo con `##` temáticos
-4. Cierre: `## 🧠 Mini-chequeo` (2-3 preguntas), `## ✅ Resumen en 3 frases`, `## 🐛 Vocabulario rápido`
-5. Pie: `📚 [Volver al índice…] · **Anterior:** […] · **Siguiente:** […]`
+> **Todo el contenido son FICHAS DE AULA**: hojas para trabajar en clase, no textos para leer en casa. Cada punto = 1 ficha imprimible de 1-2 A4. Explicación mínima + ejercicios para rellenar. Si un tema crece, se parte en dos fichas.
+
+**Plantilla de cada punto (ficha):**
+
+```markdown
+---
+title: N — Título de la ficha
+description: Bajada corta con emoji 😌
+---
+
+<p><small>Bajada corta con emoji 😌</small></p>
+
+> 🗺️ **Estás en:** 🤝 **Nombre de la unidad** → N · Título
+
+## 📬 En corto
+
+> Idea en UNA frase.
+
+## 💡 Lo que hay que saber
+
+Explicación breve (párrafos cortos, analogías 16-17, tablas, muchas
+emojis). Máximo ~1 pantalla: el resto lo dicen los ejercicios.
+![Descripción de la imagen](/ActividadesFPBComercio/img/NN-nombre/xx.svg)
+
+<div class="ficha-cabecera">
+  <span class="campo">👤 Nombre:</span>
+  <span class="campo">📅 Fecha:</span>
+  <span class="campo">🏫 Grupo:</span>
+</div>
+
+## ✍️ A por ellos (ejercicios)
+
+<div class="ejercicio">**1. ✏️ Completa:** …</div>
+<div class="ejercicio">**2. 🎯 Decide:** …</div>
+Respuestas siempre en <details><summary>🔄 Soluciones</summary>…</details>
+
+## 🎭 Mini dinámica (opcional, 5-10 min)
+
+## 🔑 Para el profe (soluciones y pistas)  ← solo en DOCX/web
+
+📚 [Volver al índice…] · **Anterior:** […] · **Siguiente:** […]
+```
+
+**Reglas de la ficha:**
+
+1. **Cabecera imprimible:** toda ficha lleva `<div class="ficha-cabecera">` con Nombre/Fecha/Grupo.
+2. **Ejercicios siempre rellenables:** completar, emparejar, decidir, escribir; usa `<div class="ejercicio">` para enmarcar cada uno y `<span class="linea-respuesta">` cuando haga falta una línea en blanco.
+3. **Soluciones en `<details>`** (web) y visibles al final de la página (DOCX).
+4. **1 imagen Excalidraw por ficha** en `public/img/NN-nombre/xx.svg` (+ `.png` de respaldo, fuente `.excalidraw` en `public/img/fuentes/`), insertada con `<div class="ficha-img">`.
+5. **Prosa mínima:** si una explicación supera una pantalla, se parte en dos fichas.
+
+### 🎨 Sistema de iconos (obligatorio — muchos iconos)
+
+| Icono | Sección / uso |
+|---|---|
+| 📬 | En corto (la idea en una frase) |
+| 💡 | Lo que hay que saber (explicación) |
+| ✍️ | Ejercicios ("A por ellos") |
+| 🎭 | Mini dinámica / rol-play |
+| 😬 | El fail de DANI (nota al margen) |
+| 🤝 | Trabajo en equipo / dinámica |
+| 🔑 | Soluciones / para el profe |
+| 📌 | Idea importante (callout) |
+| ⚠️ | Cuidado / error típico |
+| 🏆 | Logros |
+| 🎬 | Poscréditos |
+| ✏️ 🎯 🔍 🧩 🗣️ 💪 🚪 🛡️ | Sub-tipo de ejercicio o categoría |
+
+- **Un icono por idea** en tablas, listas, botones y títulos de sección.
+- Los títulos de las fichas llevan siempre emoji en la description.
 
 **Bloques de juegos** (la unidad entera debe incluir los mínimos):
 
@@ -234,7 +312,7 @@ Unidades **pequeñas**: índice + 2-4 puntos. Si un tema crece, se parte en dos 
 
 ### Páginas imprimibles
 
-Las unidades de guiones y turnos (`09-tu-sesion-en-50-minutos`, `10-turnos-del-aula`) se pensan para imprimir: instrucciones de impresión en la propia página; `custom.css` ya tiene `@media print`.
+Las unidades de guiones y turnos (`09-tu-sesion-en-50-minutos`, `10-turnos-del-aula`) se piensan para imprimir: instrucciones de impresión en la propia página; `custom.css` ya tiene `@media print`.
 
 ---
 
@@ -245,6 +323,14 @@ npm run dev       # Servidor local → http://localhost:4321
 npm run build     # Build estático → dist/
 npm run preview   # Previsualizar build
 npm run docx      # DOCX por unidad → docx/ (requiere Pandoc en PATH)
+
+# Imágenes Excalidraw (skill de PresentacionesEducativas; funciona headless)
+npx -y mcp-excalidraw-server add elem.json        # crear elementos en el canvas
+npx -y mcp-excalidraw-server export --out x.excalidraw   # fuente editable
+npx -y mcp-excalidraw-server screenshot --format svg --out x.svg
+npx -y mcp-excalidraw-server screenshot --out x.png
+npx -y mcp-excalidraw-server snapshot save|restore <nombre>  # no perder la escena del usuario
+npx -y mcp-excalidraw-server clear --yes
 ```
 
 ---
@@ -254,8 +340,10 @@ npm run docx      # DOCX por unidad → docx/ (requiere Pandoc en PATH)
 - [ ] Frontmatter (title, description con emoji)
 - [ ] Sin números de unidad en prosa ni títulos
 - [ ] Índice: objetivo, mapa (tabla), actividades, ¿por dónde empiezo?, pie
-- [ ] Cada punto: 📬 En corto, desarrollo, mini-chequeo, resumen en 3 frases, vocabulario, pie Anterior/Siguiente
+- [ ] Cada punto (ficha): 📬 En corto, 💡 Lo que hay que saber, cabecera Nombre/Fecha/Grupo, ✍️ A por ellos, soluciones en `<details>`, 🔑 Para el profe, pie Anterior/Siguiente
 - [ ] Tutoría: ≥1 dinámica 🤝 + ≥1 😬 fail de DANI + soluciones en `<details>`
+- [ ] Imagen Excalidraw de la ficha: `.svg` + `.png` en `public/img/NN-nombre/` + `.excalidraw` en `public/img/fuentes/`
+- [ ] Enlaces solo a páginas existentes (contenido, sidebar y landing)
 - [ ] Sidebar actualizado en `astro.config.mjs` (solo páginas existentes; el build falla con enlaces rotos)
 - [ ] `npm run build` exitoso
 - [ ] `npm run docx` regenerado tras editar contenido
