@@ -65,9 +65,9 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ## 📍 Estado actual (actualizar al publicar unidades)
 
-- **Publicadas:** **1-6** (taller de tienda completa) · **7-13** (estudiar: leer, subrayar, esquemas, papel, memorizar, examen, IA copiloto).
+- **Publicadas:** **1-6** (taller de tienda completa) · **7-13** (estudiar completo: leer, subrayar, esquemas, papel, memorizar, examen, IA copiloto) · **14** (arranque del bloque creativo).
 - **Retirado:** todo el bloque de tutoría anterior (recuperable en el historial de git).
-- **Siguiente lote:** 14 · Monta tu presentación y el resto del bloque creativo (15-18).
+- **Siguiente lote:** 15 · 💡 Creatividad y el resto del bloque creativo (15-18).
 - **Especial publicada:** 🏆 El torneo del taller (`90-el-torneo-del-taller`, fuera de la numeración 1-29): liga de dinámicas por equipos con tabla en la pared y premios cooperativos.
 - **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 13 unidades + especial.
 - **Traspaso de sesión:** [HANDOFF.md](HANDOFF.md) — se sobrescribe en cada sesión; el histórico queda en git.
@@ -76,7 +76,7 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ## 📚 Temario (29 unidades pequeñas, en construcción)
 
-Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: **1-6** (taller de tienda completa) y **7-13** (estudiar completo, con la IA como copiloto). Todo lo que se escriba sigue el formato ficha y termina en algo que el alumnado hace en clase.
+Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: **1-6** (taller de tienda completa), **7-13** (estudiar completo, con la IA como copiloto) y **14** (arranque del creativo). Todo lo que se escriba sigue el formato ficha y termina en algo que el alumnado hace en clase.
 
 > 🔢 **Numeración corrida desde 1** (17/10/2026): antes había huecos porque se retiraron las unidades de tutoría. Las 1-6 son el taller de tienda, las 7-13 estudiar, 14-18 creatividad, 19-24 comunicación, 25-28 IPE II y 29 el proyecto OAA.
 >
@@ -109,7 +109,7 @@ Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en
 
 | # | Unidad | Slug | Contenido |
 |---|---|---|---|
-| 14 | 🎤 Monta tu presentación | `14-monta-tu-presentacion` | Buscar → recopilar → seleccionar → crear presentación propia |
+| 14 | 🎤 Monta tu presentación | `14-monta-tu-presentacion` | ✅ Buscar/recopilar con fuente instantánea, láminas (1 idea, máx. 6 líneas) y pitch de 1 minuto |
 | 15 | 💡 Creatividad | `15-creatividad` | Qué es, cómo se estimula, actividades |
 | 16 | 🔍 Webgrafía | `16-webgrafia` | Qué es, fiabilidad de fuentes, cómo se elabora |
 | 17 | 🖼️ Bancos de imágenes libres | `17-bancos-de-imagenes-libres` | Pexels, Unsplash, Pixabay… |

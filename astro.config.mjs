@@ -101,6 +101,16 @@ const contenidosItems = [
     ],
   },
   {
+    label: '14 · 🎤 Monta tu presentación',
+    collapsed: true,
+    items: [
+      { slug: '14-monta-tu-presentacion', label: 'Índice' },
+      { slug: '14-monta-tu-presentacion/01-busca-y-recopila', label: '1 · Busca y recopila' },
+      { slug: '14-monta-tu-presentacion/02-selecciona-y-crea-las-laminas', label: '2 · Selecciona y crea las láminas' },
+      { slug: '14-monta-tu-presentacion/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
     label: '90 · 🏆 El torneo del taller (especial)',
     collapsed: true,
     items: [

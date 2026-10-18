@@ -41,7 +41,7 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 
 ## ⏳ Pendiente / siguiente
 
-- **Siguiente lote:** bloque creativo: 14 · 🎤 Monta tu presentación (ya planificada) y el resto (15-18).
+- **Siguiente lote:** 15 · 💡 Creatividad y el resto del bloque creativo (16-18).
 
 ## 🏆 Especial nueva: El torneo del taller
 
@@ -75,6 +75,19 @@ El repo es de **actividades de aula**, no de apuntes. Cada ficha debe traer algo
 - **2 imágenes Excalidraw** con `scripts/gen-tienda-13.py` (prompts/be efficient pieces + semáforo) en `public/img/13-ia-copiloto-de-estudio/`.
 - Pie de la unidad 12 actualizado para enlazar la 13; sidebar y landing con el bloque Estudiar completo (7-13).
 
+## ✅ Añadido en la última sesión (18/10)
+
+- **Unidad 13 · 🤖 IA: copiloto de estudio** (`13-ia-copiloto-de-estudio`) — cierra el bloque 📚 Estudiar:
+  - Ficha 1 “Pregunta bien, pide claro”: la petición en 3 piezas (QUÉ · PARA QUÉ · CÓMO) con subasta de prompts.
+  - Ficha 2 “El copiloto no conduce”: semáforo de usos (🟢 material/corregir · 🟡 explicar y luego explicar tú · 🔴 redactar lo que entrega tu nombre) + regla de la explicación + datos contrastados.
+  - Ficha 3 “Juegos y retos”: fail de DANI (leer la IA ≠ saberlo), duelo IA-tú, caza el copia-pega, la IA que te evalúa y logros.
+- **Unidad 14 · 🎤 Monta tu presentación** (`14-monta-tu-presentacion`) — arranca el bloque 🎨 creativo:
+  - Ficha 1 “Busca y recopila”: 3-4 búsquedas (una en inglés), tabla de materiales y **regla de la fuente instantánea**.
+  - Ficha 2 “Selecciona y crea las láminas”: gancho/cuerpo/cierre, 1 idea por lámina con máx. 6 líneas y fuente en la esquina.
+  - Ficha 3 “Juegos y retos”: fail de DANI (47 diapositivas sin gancho), pitch de 1 minuto, lámina muda y logros.
+- **2 imágenes Excalidraw por unidad** con `scripts/gen-tienda-13.py` y `scripts/gen-tienda-14.py` (dimensiones reales del viewBox sincronizadas en los `ficha-img`; el muro largo se envuelve a mano porque el export CLI no parte párrafos).
+- Sidebar, landing (bloque 🎨 con tarjeta nueva), pies de las unidades 12→13→14 y estado en AGENTS/README/HANDOFF + `planaseguir.txt`.
+
 ## 🧰 Comandos
 
 ```bash
@@ -86,6 +99,7 @@ python scripts/gen-tienda-3.py        # escenas 5-6
 python scripts/gen-tienda-4.py        # escenas 11-12
 python scripts/gen-tienda-90.py       # escenas del torneo
 python scripts/gen-tienda-13.py       # escenas de IA copiloto
+python scripts/gen-tienda-14.py       # escenas de montar tu presentación
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format svg --out x.svg
 npx -y mcp-excalidraw-server render <fuente.excalidraw> --format png --out x.png
 ```

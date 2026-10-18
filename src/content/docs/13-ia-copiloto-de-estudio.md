@@ -53,4 +53,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · Pregunta bien, pide claro](/ActividadesFPBComercio/13-ia-copiloto-de-estudio/01-pregunta-bien-pide-claro)
 
-**⏭️ Al acabar, cierras el bloque 📚 Estudiar completo.** Rétala ahora con [El torneo del taller](/ActividadesFPBComercio/90-el-torneo-del-taller) o espera el bloque 🎨 creativo (en preparación).
+**⏭️ Al acabar, cierras el bloque 📚 Estudiar completo.** Practica con [El torneo del taller](/ActividadesFPBComercio/90-el-torneo-del-taller) o pasa al bloque 🎨 creativo: [Monta tu presentación](/ActividadesFPBComercio/14-monta-tu-presentacion).

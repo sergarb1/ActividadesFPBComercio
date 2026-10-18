@@ -170,6 +170,23 @@ Cada unidad trae **una actividad para hacer en el aula**: un caso, una plantilla
 
 </div>
 
+## 🎨 Modo creativo
+
+<div class="unit-grid">
+
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">14 · Presentación</span>
+  </div>
+  <a href="/ActividadesFPBComercio/14-monta-tu-presentacion" class="title-link">🎤 Monta tu presentación</a>
+  <p class="desc">Buscar, recopilar, seleccionar y crear: el circuito completo para montar una presentación que se cuenta y no se lee.</p>
+  <a href="/ActividadesFPBComercio/14-monta-tu-presentacion" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
+</div>
+
+> **En camino:** 💡 Creatividad, 🔍 Webgrafía, 🖼️ Bancos de imágenes libres y ⚖️ Copyright (15-18).
+
 ## 🧑‍🤝‍🧑 Los protagonistas
 
 | Personaje | Quién es |

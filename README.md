@@ -22,7 +22,7 @@ Que la clase funcione: actividades cooperativas para mejorar el clima del aula (
 | Sección | Unidades |
 |---|---|
 | 🤝 **Tutoría — Modo coop** | Confianza real · Ponte en su sitio · Modo equipo · Líneas rojas · El insulto no es poder · Decirlo sin liarla · Conflicto: modo sabio · Banco de juegos · Tu sesión en 50 minutos · Turnos del aula |
-| 💻 **Contenidos** | Estudiar sin sufrir (leer, subrayar, esquemas, memorizar, examen en blanco, IA) · Modo creativo (presentaciones, creatividad, webgrafía, imágenes, copyright) · Hablar y escribir como un pro (correos, incidencias, noticias, vídeos, IA) · Dinero, nóminas y curro (IPE II) · Proyecto almacén (OAA) |
+| 💻 **Contenidos** | Estudiar sin sufrir (leer, subrayar, esquemas, papel, memorizar, examen en blanco, IA copiloto) · Modo creativo (monta tu presentación, creatividad, webgrafía, imágenes, copyright) · Hablar y escribir como un pro (correos, incidencias, noticias, vídeos, IA) · Dinero, nóminas y curro (IPE II) · Proyecto almacén (OAA) · 🏆 Especial: El torneo del taller |
 
 *(Progresivamente se irá publicando; el AGENTS.md detalla el temario completo de 33 unidades.)*
 

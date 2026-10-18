@@ -1,0 +1,91 @@
+PLAN A SEGUIR — Actividades FPB Comercio
+=========================================
+(Actualizado: 18/10/2026 · si abres este repo en otro contexto/otro agente,
+empieza por AGENTS.md y luego lee HANDOFF.md; este fichero es el resumen
+del plan de publicación en curso.)
+
+
+1 · DÓNDE ESTAMOS
+-----------------
+Web de fichas de aula (Astro + Starlight, es-ES) publicada en
+https://sergarb1.github.io/ActividadesFPBComercio/
+
+- Publicadas las unidades 1-13 (taller de tienda 1-6 completo + bloque
+  "Estudiar sin sufrir" 7-13 completo) y la especial 90 · El torneo del taller.
+- Recién publicada la 14 · Monta tu presentación: PRIMERA del bloque
+  "Modo creativo" (14-18).
+- Cada unidad = índice + 3 fichas (la 3ª es de juegos y retos).
+- Formato ficha obligatorio (ver AGENTS.md → "Formato de ficha"):
+  📬 En corto → 💡 Lo que hay que saber → cabecera Nombre/Fecha/Grupo →
+  imagen Excalidraw → ✍️ A por ellos → 🎭 Mini dinámica → 🔑 Para el profe → pie.
+
+
+2 · ORDEN DE PUBLICACIÓN QUE QUEDA
+----------------------------------
+🎨 Modo creativo (14-18):
+   15 · Creatividad                     <- SIGUIENTE
+   16 · Webgrafía
+   17 · Bancos de imágenes libres
+   18 · Copyright
+💬 Hablar y escribir como un pro (19-24):
+   19 Correos que funcionan · 20 Responder sin quemarse ·
+   21 Incidencias de clientes · 22 Noticias de actualidad ·
+   23 Vídeos motivacionales · 24 IA informática
+ 💶 IPE II (25-28): contrato · nómina · IRPF · con y sin graduado
+ 🏪 OAA (29): guión del proyecto de almacén (cierra el temario de 29)
+
+
+3 · RECETA PARA CREAR CADA UNIDAD NUEVA (15, 16, 17...)
+-------------------------------------------------------
+1. Carpeta + 4 ficheros markdown:
+   src/content/docs/NN-nombre.md                     (índice)
+   src/content/docs/NN-nombre/01-....md              (ficha 1)
+   src/content/docs/NN-nombre/02-....md              (ficha 2)
+   src/content/docs/NN-nombre/03-juegos-y-retos.md   (ficha 3)
+2. Frontmatter SIEMPRE con comillas si el texto lleva dos puntos:
+   title: "15 — ..." · description: "..."  (un title con ":" sin comillas
+   rompe el build con un error YAML neutro tipo "Nested mappings").
+3. Índice: mapa del bloque, objetivo, tabla del mapa de la unidad,
+   ejercicio-links, ¿por dónde empiezo? y pie Anterior/Siguiente
+   (SOLO enlazar paginas existentes; el build falla con enlaces rotos).
+4. Fichas: formato del punto 1; ejercicios en <div class="ejercicio">,
+   respuestas en <details>, ≥1 fail de DANI en la ficha 3, tono
+   cooperativo (ROSA se ríe de la tontería, nunca del compañero).
+5. 2 imágenes Excalidraw por unidad:
+   - Copiar scripts/gen-tienda-14.py y cambiar escenas/nombres
+     (reutiliza helpers de gen-tienda-images.py).
+   - python scripts/gen-tienda-NN.py
+   - mkdir -p public/img/NN-nombre  (¡sin acentos en el nombre!)
+   - npx -y mcp-excalidraw-server render public/img/fuentes/NN-...-ficha1.excalidraw \
+       --format svg --out public/img/NN-nombre/01-....svg
+     (y PNG igual). Ojo: si un texto es un párrafo largo, hay que
+     envolverlo en \n a mano o el SVG sale 2000px de ancho.
+   - Poner en el <img> las dimensiones reales del viewBox (salen en el
+     propio resultado del render).
+6. Registrar en astro.config.mjs (grupo del sidebar), landing
+   (src/content/docs/index.md, tarjeta en la sección del bloque) y
+   enlazar "siguiente" en la unidad anterior.
+7. Actualizar AGENTS.md (Estado actual + fila del temario) y HANDOFF.md.
+8. Checks: npm run build (capturar exit) · npm run docx (los DOCX van al
+   repo) · grep de enlaces contra dist/ (dist/NN-slug/... no lleva el base
+   delante) y rutas img contra public/img/ · commit · push ·
+   gh run watch + curl a las 4 URLs nuevas (con barra final: sin barra
+   GitHub Pages responde 301).
+
+
+4 · IDEAS EN ESPERA (no obligatorias)
+-------------------------------------
+- Banco de plantillas imprimibles (albarán, arqueo, inventario,
+  hoja de reclamación, carta de precios) como páginas A4 sueltas.
+- Examen interactivo en una página (semáforo 🟢🟡🔴 por bloque, JS inline).
+- Filtro "tengo 10/30 min y papel" en la landing.
+- Carta A3 de logros por unidades para gomets en el aula.
+
+
+5 · CONVENIOS QUE NADIE DEBE ROMPER
+-----------------------------------
+- El repo es de ACTIVIDADES (se hace en clase), no de apuntes.
+- Sin números de unidad en prosa/títulos (solo en slugs y sidebar).
+- Fail siempre de DANI; nada de humillar al grupo; tono esperanzador.
+- Sin PDF/EPUB; DOCX por unidad con npm run docx tras editar contenido.
+- Imágenes: SVG + PNG en public/img/NN-nombre/, fuente en public/img/fuentes/.
