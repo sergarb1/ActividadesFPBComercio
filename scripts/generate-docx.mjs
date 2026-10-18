@@ -39,11 +39,41 @@ function rewriteLinks(content) {
   );
 }
 
+/**
+ * Los diagramas Excalidraw están en ficha-img como HTML crudo con ruta web
+ * absoluta y formato SVG; Pandoc los descarta al generar DOCX (solo incrusta
+ * imágenes en sintaxis markdown con ruta rasterizable). Se convierten a
+ * ![captión](public/img/...png), ruta real en disco relativa a la raíz.
+ */
+function pathForPandoc(webPath) {
+  const local = webPath.replace('/ActividadesFPBComercio/', 'public/');
+  const png = local.replace(/\.svg$/i, '.png');
+  // DOCX no admite SVG: usamos el PNG de respaldo si existe
+  return fs.existsSync(path.join(root, png)) ? png : local;
+}
+
+function embedImages(content) {
+  // 1) Bloques <div class="ficha-img"> completos → imagen markdown + caption
+  let out = content.replace(
+    /[ \t]*<div class="ficha-img">[\s\S]*?<img src="([^"]+)"[^>]*>[\s\S]*?<figcaption>([\s\S]*?)<\/figcaption>[\s\S]*?<\/div>/g,
+    (_m, src, caption) => {
+      const cap = caption.replace(/\s+/g, ' ').trim().replace(/[[\]]/g, '');
+      return `![${cap}](${pathForPandoc(src)})`;
+    },
+  );
+  // 2) Imágenes markdown aisladas con ruta web (svg → png local)
+  out = out.replace(
+    /!\[([^\]]*)\]\((\/ActividadesFPBComercio\/img\/[^)]+)\)/g,
+    (_m, alt, src) => `![${alt}](${pathForPandoc(src)})`,
+  );
+  return out;
+}
+
 function toSectionMarkdown(filePath) {
   const raw = fs.readFileSync(filePath, 'utf8');
   const base = path.basename(filePath, '.md');
   const title = getFrontTitle(raw, base);
-  const body = rewriteLinks(stripFrontmatter(raw));
+  const body = embedImages(rewriteLinks(stripFrontmatter(raw)));
   return `# ${title}\n\n${body}\n`;
 }
 
@@ -63,6 +93,8 @@ function runPandoc(md, outFile) {
         '--toc',
         '--toc-depth=3',
         '--metadata', 'lang=es-ES',
+        '--resource-path', root,
+        '--dpi', '200',
         '-o', outFile,
       ],
       { cwd: root, stdio: ['ignore', 'pipe', 'pipe'], encoding: 'utf8' },
