@@ -65,18 +65,18 @@ astro.config.mjs             → Config Astro + Starlight (sidebar con las unida
 
 ## 📍 Estado actual (actualizar al publicar unidades)
 
-- **Publicadas:** **1-6** (taller de tienda completa) · **7-12** (estudiar: leer, subrayar, esquemas, papel, memorizar, examen).
+- **Publicadas:** **1-6** (taller de tienda completa) · **7-13** (estudiar: leer, subrayar, esquemas, papel, memorizar, examen, IA copiloto).
 - **Retirado:** todo el bloque de tutoría anterior (recuperable en el historial de git).
-- **Siguiente lote:** 13 · IA: copiloto de estudio (cierra el bloque estudiar) y arrancar 14 · Monta tu presentación (creativo).
+- **Siguiente lote:** 14 · Monta tu presentación y el resto del bloque creativo (15-18).
 - **Especial publicada:** 🏆 El torneo del taller (`90-el-torneo-del-taller`, fuera de la numeración 1-29): liga de dinámicas por equipos con tabla en la pared y premios cooperativos.
-- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 12 unidades + especial.
+- **Última verificación:** `npm run build` ✓ · `npm run docx` ✓ · imágenes Excalidraw de las 13 unidades + especial.
 - **Traspaso de sesión:** [HANDOFF.md](HANDOFF.md) — se sobrescribe en cada sesión; el histórico queda en git.
 
 ---
 
 ## 📚 Temario (29 unidades pequeñas, en construcción)
 
-Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: **1-6** (taller de tienda completa) y **7-12** (estudiar hasta examen). Todo lo que se escriba sigue el formato ficha y termina en algo que el alumnado hace en clase.
+Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en cada una**. Publicadas: **1-6** (taller de tienda completa) y **7-13** (estudiar completo, con la IA como copiloto). Todo lo que se escriba sigue el formato ficha y termina en algo que el alumnado hace en clase.
 
 > 🔢 **Numeración corrida desde 1** (17/10/2026): antes había huecos porque se retiraron las unidades de tutoría. Las 1-6 son el taller de tienda, las 7-13 estudiar, 14-18 creatividad, 19-24 comunicación, 25-28 IPE II y 29 el proyecto OAA.
 >
@@ -103,7 +103,7 @@ Filosofía: **unidades pequeñas** (índice + 3 fichas) y **actividad de aula en
 | 10 | 📄 Textos en papel | `10-textos-en-papel` | ✅ Marcadores, post-its y repaso manuscrito |
 | 11 | 🧠 Memorizar de verdad | `11-memorizar-de-verdad` | ✅ Ciclo leer→copiar→tapar→decir, semáforo del conocimiento y repaso 1-3-7 |
 | 12 | ✅ Examen en blanco | `12-examen-en-blanco` | ✅ 6 preguntas propias, corrección en otro color y reparto de minutos por bloques |
-| 13 | 🤖 IA: copiloto de estudio | `13-ia-copiloto-de-estudio` | IA para dudas y ejemplos; NO copiar y pegar |
+| 13 | 🤖 IA: copiloto de estudio | `13-ia-copiloto-de-estudio` | ✅ Preguntas que funcionan (qué/para qué/cómo), semáforo de usos y regla de la explicación |
 
 #### 🎨 Modo creativo
 

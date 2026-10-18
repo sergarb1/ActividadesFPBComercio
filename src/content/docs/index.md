@@ -159,6 +159,15 @@ Cada unidad trae **una actividad para hacer en el aula**: un caso, una plantilla
   <a href="/ActividadesFPBComercio/12-examen-en-blanco" class="unit-link">👉 Ver unidad 👈</a>
 </div>
 
+<div class="unit-card">
+  <div class="unit-card-header">
+    <span class="num">13 · IA</span>
+  </div>
+  <a href="/ActividadesFPBComercio/13-ia-copiloto-de-estudio" class="title-link">🤖 IA: copiloto de estudio</a>
+  <p class="desc">La IA saca ejemplos y preguntas; el estudio lo haces tú. Con el semáforo de usos y la regla de la explicación.</p>
+  <a href="/ActividadesFPBComercio/13-ia-copiloto-de-estudio" class="unit-link">👉 Ver unidad 👈</a>
+</div>
+
 </div>
 
 ## 🧑‍🤝‍🧑 Los protagonistas

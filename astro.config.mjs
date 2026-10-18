@@ -91,6 +91,16 @@ const contenidosItems = [
     ],
   },
   {
+    label: '13 · 🤖 IA: copiloto de estudio',
+    collapsed: true,
+    items: [
+      { slug: '13-ia-copiloto-de-estudio', label: 'Índice' },
+      { slug: '13-ia-copiloto-de-estudio/01-pregunta-bien-pide-claro', label: '1 · Pregunta bien, pide claro' },
+      { slug: '13-ia-copiloto-de-estudio/02-el-copiloto-no-conduce', label: '2 · El copiloto no conduce' },
+      { slug: '13-ia-copiloto-de-estudio/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
     label: '90 · 🏆 El torneo del taller (especial)',
     collapsed: true,
     items: [

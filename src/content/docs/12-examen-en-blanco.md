@@ -52,4 +52,4 @@ Al terminar, serás capaz de:
 
 **📍 Primer punto:** [01 · Tu examen en blanco](/ActividadesFPBComercio/12-examen-en-blanco/01-tu-examen-en-blanco)
 
-**⏭️ Al acabar la unidad, el siguiente del bloque es IA: copiloto de estudio (en preparación).**
+**⏭️ Al acabar, continúa con la última del bloque 📚 Estudiar:** [IA: copiloto de estudio](/ActividadesFPBComercio/13-ia-copiloto-de-estudio).
