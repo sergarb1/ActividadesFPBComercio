@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // ============================================================
 // Actividades FPB Comercio
-// Actividades de aula para FPB Comercio (17 unidades y creciendo)
+// Actividades de aula para FPB Comercio (14 unidades + especial · creciendo)
 // IMPORTANTE: el sidebar solo puede enlazar páginas que existan.
 // Al crear una unidad nueva, añadirla aquí ANTES de comprobar el build.
 // ============================================================
@@ -71,6 +71,46 @@ const contenidosItems = [
     ],
   },
   {
+    label: '07 · 📖 Leer y entender',
+    collapsed: true,
+    items: [
+      { slug: '07-leer-y-entender', label: 'Índice' },
+      { slug: '07-leer-y-entender/01-leer-no-es-ojear', label: '1 · Leer no es ojear' },
+      { slug: '07-leer-y-entender/02-el-metodo-antes-de-subrayar', label: '2 · El método: leer antes de subrayar' },
+      { slug: '07-leer-y-entender/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
+    label: '08 · ✏️ Subrayado',
+    collapsed: true,
+    items: [
+      { slug: '08-subrayado', label: 'Índice' },
+      { slug: '08-subrayado/01-que-subrayar-y-que-no', label: '1 · Qué subrayar y qué no' },
+      { slug: '08-subrayado/02-como-subrayar-de-verdad', label: '2 · Cómo subrayar de verdad' },
+      { slug: '08-subrayado/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
+    label: '09 · 🗂️ Esquemas y resúmenes',
+    collapsed: true,
+    items: [
+      { slug: '09-esquemas-y-resumenes', label: 'Índice' },
+      { slug: '09-esquemas-y-resumenes/01-de-subrayado-a-esquema', label: '1 · De subrayado a esquema' },
+      { slug: '09-esquemas-y-resumenes/02-el-resumen-propio', label: '2 · El resumen propio' },
+      { slug: '09-esquemas-y-resumenes/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
+    label: '10 · 📄 Textos en papel',
+    collapsed: true,
+    items: [
+      { slug: '10-textos-en-papel', label: 'Índice' },
+      { slug: '10-textos-en-papel/01-marcar-sin-destrozar', label: '1 · Marcar sin destrozar' },
+      { slug: '10-textos-en-papel/02-repaso-a-mano', label: '2 · Repaso a mano' },
+      { slug: '10-textos-en-papel/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
+    ],
+  },
+  {
     label: '11 · 🧠 Memorizar de verdad',
     collapsed: true,
     items: [
@@ -118,46 +158,6 @@ const contenidosItems = [
       { slug: '90-el-torneo-del-taller/01-como-se-juega', label: '1 · Cómo se juega' },
       { slug: '90-el-torneo-del-taller/02-la-tabla-y-los-premios', label: '2 · La tabla y los premios' },
       { slug: '90-el-torneo-del-taller/03-la-final-y-los-logros', label: '3 · 🏆 La final y los logros' },
-    ],
-  },
-  {
-    label: '07 · 📖 Leer y entender',
-    collapsed: true,
-    items: [
-      { slug: '07-leer-y-entender', label: 'Índice' },
-      { slug: '07-leer-y-entender/01-leer-no-es-ojear', label: '1 · Leer no es ojear' },
-      { slug: '07-leer-y-entender/02-el-metodo-antes-de-subrayar', label: '2 · El método: leer antes de subrayar' },
-      { slug: '07-leer-y-entender/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
-    ],
-  },
-  {
-    label: '08 · ✏️ Subrayado',
-    collapsed: true,
-    items: [
-      { slug: '08-subrayado', label: 'Índice' },
-      { slug: '08-subrayado/01-que-subrayar-y-que-no', label: '1 · Qué subrayar y qué no' },
-      { slug: '08-subrayado/02-como-subrayar-de-verdad', label: '2 · Cómo subrayar de verdad' },
-      { slug: '08-subrayado/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
-    ],
-  },
-  {
-    label: '09 · 🗂️ Esquemas y resúmenes',
-    collapsed: true,
-    items: [
-      { slug: '09-esquemas-y-resumenes', label: 'Índice' },
-      { slug: '09-esquemas-y-resumenes/01-de-subrayado-a-esquema', label: '1 · De subrayado a esquema' },
-      { slug: '09-esquemas-y-resumenes/02-el-resumen-propio', label: '2 · El resumen propio' },
-      { slug: '09-esquemas-y-resumenes/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
-    ],
-  },
-  {
-    label: '10 · 📄 Textos en papel',
-    collapsed: true,
-    items: [
-      { slug: '10-textos-en-papel', label: 'Índice' },
-      { slug: '10-textos-en-papel/01-marcar-sin-destrozar', label: '1 · Marcar sin destrozar' },
-      { slug: '10-textos-en-papel/02-repaso-a-mano', label: '2 · Repaso a mano' },
-      { slug: '10-textos-en-papel/03-juegos-y-retos', label: '3 · 🎮 Juegos y retos' },
     ],
   },
 ];
